@@ -1,0 +1,662 @@
+#ccp{
+    width: 100%;
+    background: #e8eaef;
+    position: absolute;
+    overflow-x: hidden;
+    /*top: 52px;*/
+}
+
+.ccpbody{
+    width: 1000px;
+    margin: auto auto 0px;
+}
+
+.ccptop{
+    height: 457px;
+    width: 100%;
+}
+
+#ccptopl{
+    width: 40px;
+    float: left;
+    position: relative;
+}
+
+#ccptopr{
+    width: 40px;
+    float: left;
+    position: relative;
+    left: 332px;
+}
+
+.ccptopc{
+    height: 457px;
+    width: 840px;
+    margin: auto;   
+}
+
+.ccptopl{
+    height:457px;
+    width:381px;
+    background:url(../../img/ccp-topshou.png) no-repeat -173px -70px;
+    overflow:hidden;
+    float: left;
+}
+
+.ccptopr{
+    height:287px;
+    width: 409px;
+    float: left;
+    margin-left: 50px;
+    padding-top: 170px;
+    text-align: center;
+    position: relative;
+}
+
+.ccptopr p {
+    line-height: 39px;
+    font-weight: 100;
+    font-size: 39px;
+    color: #666;
+}
+
+section::after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	content: '';
+	width: 100%;
+	height: 30px;
+}
+
+#topjt a {
+	position: absolute;
+	bottom: 37px;
+	left: 50%;
+	z-index: 2;
+	display: inline-block;
+	-webkit-transform: translate(0, -50%);
+	transform: translate(0, -50%);
+	color: #fff;
+	font : normal 400 20px/1 'Josefin Sans', sans-serif;
+	letter-spacing: .1em;
+	text-decoration: none;
+	transition: opacity .3s;
+}
+#topjt a:hover {
+	opacity: .5;
+}
+
+#topjt a span {
+	position: absolute;
+	top: -23px;
+	left: 50%;
+	width: 18px;
+	height: 18px;
+	margin-left: -12px;
+	border-left: 1px solid #a0a0a1;
+	border-bottom: 1px solid #a0a0a1;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+	-webkit-animation: sdb07 2s infinite;
+	animation: sdb07 2s infinite;
+	opacity: 0;
+	box-sizing: border-box;
+}
+#topjt a span:nth-of-type(1) {
+	-webkit-animation-delay: 0s;
+	animation-delay: 0s;
+}
+#topjt a span:nth-of-type(2) {
+	top: 10px;
+	-webkit-animation-delay: .15s;
+	animation-delay: .15s;
+}
+
+@-webkit-keyframes sdb07 {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+@keyframes sdb07 {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+.ccp_topright{
+    height: 160px;
+    width: 230px;
+    background: #292929;
+    float: left;
+    text-align: center;
+}
+
+.ccp_topright p{
+    color: #aaa;
+    font-size: 12px;
+    padding:50px 0 10px 0;
+}
+.ccp_icon{
+    width: 100%;
+    height: 50px;
+    margin:50px auto auto auto;
+}
+
+
+.ccp_icon1{
+    height: 20px;
+    float: left;
+}
+.ccp_iphone .weixin, .ccp_android .weixin2{
+    display: none;
+}
+.ccp_iphone .weixin img, .ccp_android .weixin2 img{
+    position: relative;
+    /*z-index: 10;*/
+    top:15px;
+}
+
+.ccp_iphone:hover .weixin{
+    z-index:5;
+    margin-left: -35px;
+    margin-top:-10px;
+    width:130px;
+    height:150px;  
+    background: url(../../img/ccp_erweima.png) no-repeat center;
+    display: block;
+}
+
+.ccp_android:hover .weixin2{
+    z-index:1;
+    margin-left: -25px;
+    margin-top:-10px;
+    width:130px;
+    height:150px;  
+    background: url(../../img/ccp_erweima.png) no-repeat center;
+    display: block;
+}
+
+.ccp_iphone{
+    float: left;
+    margin-left: 30px;
+    height: 30px;
+    width: 70px;
+    background: url(../../img/icon-iphonea.png) no-repeat center;
+}
+
+.ccp_iphone:hover{
+    color: #FF6700;
+    text-decoration: none;
+    cursor:pointer;
+    background: url(../../img/icon-iphoneb.png) no-repeat center;
+
+}
+
+.ccp_iphone:hover p{
+    color: #FF6700;
+}
+
+.line{
+    width: 3px;
+    height: 30px;
+    float: left;
+    margin-left: 16px;
+}
+.line1,.line2,.line3{
+    float: left;
+    width: 1px;
+    height: 30px;
+}
+
+.ccp_android{
+    float: right;
+    margin-right: 30px;
+    height: 30px;
+    width: 70px;
+    background: url(../../img/icon-ada.png) no-repeat center;
+}
+
+.ccp_android:hover{
+    color: #FF6700;
+    text-decoration: none;
+    cursor:pointer;
+    background: url(../../img/icon-adb.png) no-repeat center; 
+   
+}
+
+.ccp_android:hover p{
+    color: #FF6700;    
+}
+
+.ccpdetail{
+    height: 4880px;
+    background: url(../../img/ccp-bj.jpg) no-repeat;
+    /*position: relative;*/
+    color: #fff;
+}
+.smrz{
+    height: 830px;
+}
+.smtop{
+    position: absolute;
+    width: 129px;
+    margin-top: 90px;
+    margin-left: 293px;
+}
+.smtop img{
+    float: left;
+}
+
+.smsj{
+    margin-left:570px;
+    margin-top:166px;
+    position:absolute;
+}
+.smcontent{
+    text-align: center;
+    margin-top:386px;
+    margin-left: 334px;
+    position:absolute;
+}
+
+#smrzPic{
+    height: 40px;
+}
+
+.font1{
+    font-size: 20px;
+    line-height: 78px;
+    font-weight: bold;
+}
+
+.font2{
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 55px;
+}
+
+.font3{
+    font-size: 28px;
+    font-weight: 100;
+    margin-top:6px;
+}
+
+.dzht{
+    margin-top: 150px;
+    margin-left: 118px;
+    position: relative;
+    height: 725px;   
+}
+
+#dzhtPic1{
+    height: 40px;
+}
+#dzhtPic2{
+    height: 20px;
+    position: relative;
+    top: -40px;
+}
+
+.dzht2{
+    position: absolute;
+    top: 106px;
+    left: 219px;
+}
+
+.xuxian1{
+    width: 432px;
+    height: 92px;
+    position: absolute;
+    border-top: 3px dashed #fff;
+    border-right: 3px dashed #fff;
+    top: 210px;
+    left: 119px;
+}
+
+.circle1{
+    position: absolute;
+    background: #fff;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    top: 306px;
+    right: 323px;
+}
+.htdetail{
+    width: 255px;
+    position: absolute;
+    top: 315px;
+    left: 520px;
+    
+}
+
+.htdetail span,.qmdetail span, .cash span,.paylist span{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.htdetail p,.qmdetail p,.cash p,.paylist p{
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.xuxian2{
+    width: 103px;
+    height: 6px;
+    position: absolute;
+    border-top: 3px dashed #fff;
+    bottom: 100px;
+    left: 392px;
+}
+
+.circle2{
+    position: absolute;
+    background: #fff;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    bottom: 101px;
+    right: 372px;
+}
+
+.qmdetail{
+    width: 272px;
+    position: absolute;
+    bottom: 65px;
+    left: 520px;
+}
+
+.pay{
+    margin-top: 130px;
+    margin-right: 105px;
+    position: relative;
+    text-align: right;
+    height: 728px;
+}
+
+#payPic1{
+    height: 40px;
+    z-index: 8;
+    position: relative;
+}
+
+#payPic2{
+    height: 40px;
+    position: relative;
+}
+
+.xuxian3{
+    width: 397px;
+    height: 6px;
+    position: absolute;
+    z-index: 10;
+    border-top: 3px dashed #fff;
+    top: 190px;
+    left: 392px;
+}
+
+.circle3{
+    position: absolute;
+    background: #fff;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    top: 184px;
+    left: 376px;
+}
+
+.cash{
+    width: 255px;
+    position: absolute;
+    top: 165px;
+    left: 113px;
+}
+
+.xuxian4{
+    width: 150px;
+    height: 6px;
+    position: absolute;
+    z-index: 10;
+    border-top: 3px dashed #fff;
+    bottom: 250px;
+    left: 391px;    
+}
+
+.circle4{
+    position: absolute;
+    background: #fff;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    bottom: 251px;
+    left: 375px;
+}
+
+.paylist{
+    width: 223px;
+    position: absolute;
+    top: 445px;
+    left: 143px;
+}
+
+.pay1{
+    position: absolute;        
+    top: 102px;
+    right: 225px;
+}
+
+.pay2{
+    position: absolute;
+    z-index: 2;
+    top: -41px;
+    right: 0px;
+}
+
+.clock{
+    position: relative;
+    width: 438px;
+    height: 438px;
+    margin-left: 90px;
+    top: -41px;
+    float: left;
+    background: url(../../img/time-bj.png) no-repeat;
+}
+
+.clock1,.clock2,.clock3,.clock4,.clock5,.clock6,.clock7,.clock8{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+}
+
+.clock1{
+    top: 2px;
+    left: 191px;
+    background: url(../../img/time_1.png) no-repeat center;
+}
+
+.clock2{
+    top: 64px;
+    left: 328px;
+    background: url(../../img/time_2.png) no-repeat center;
+    
+}
+.clock3{
+    top: 192px;
+    left: 372px;
+    background: url(../../img/time_3.png) no-repeat center;
+    
+}
+.clock4{
+    bottom: 50px;
+    left: 318px;
+    background: url(../../img/time_4.png) no-repeat center;
+    
+}
+.clock5{
+    bottom: -2px;
+    left: 190px;
+    background: url(../../img/time_5.png) no-repeat center;
+    
+}
+.clock6{
+    bottom: 50px;
+    left: 62px;
+    background: url(../../img/time_6.png) no-repeat center;
+    
+}
+.clock7{
+    top: 192px;
+    left: 8px;
+    background: url(../../img/time_7.png) no-repeat center;
+    
+}
+
+.clock8{
+    top: 64px;
+    left: 40px;
+    background: url(../../img/time_8.png) no-repeat center;
+    
+}
+
+.evaluate{
+    position: relative;
+    text-align: center;
+    width: 380px;
+    height: 86px;
+    margin-left: 568px;
+    margin-top: 356px;
+}
+
+.evaluate span{
+    color: #333;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 62px;
+}
+
+.evaluate p{
+    color: #333;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.evaluate_pic{
+    position: relative;
+    margin-left: 92px;
+    margin-top: 30px;
+    height: 785px;
+}
+
+#evaluate_pic1{
+    height: 20px;
+    z-index: 5;
+    position: relative;
+}
+
+#evaluate_pic2{
+    height: 20px;
+    z-index: 4;
+    position: relative;
+}
+
+#evaluate_pic3{
+    height: 20px;
+    z-index: 1;
+    position: relative;  
+}
+
+.pic1{
+    position: absolute;
+    margin-top: 15px;
+}
+.pic2{
+    position: absolute;
+    top: 59px;
+    left: 350px;
+}
+.pic3{
+    position: absolute;
+    top: -55px;
+    right: 113px;
+}
+
+.lamy{
+    position: relative;
+    top: 70px;
+    height: 904px;
+}
+
+#lamyPic{
+    height: 40px;
+}
+
+.lamy img{
+    margin-right: 190px;
+}
+
+.lamydetail{
+    width: 208px;
+    height: 136px;
+    text-align: center;
+    margin-top: 290px;
+    margin-left: 735px;
+}
+
+.lamydetail span{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 66px;
+}
+
+.ld1{
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.ld2{
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 46px;
+}
+
+#ewm{
+    height: 20px;
+}
+
+.ewm{
+    position: relative;
+    bottom: 60px;
+    left: 805px;
+    height: 180px;
+}
+
+.ewm span, .ewm p{
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 8px;;
+}
+
+.ccp_foot{
+    width: 100%;
+    margin-top:110px;
+    /*margin-bottom: 0;*/
+}
+
+.ccp_foot .bottom{
+    position: relative;
+    height: auto;
+    bottom: 0px
+}

@@ -1,0 +1,18 @@
+#open{
+    position: fixed;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+    z-index: 9999;
+    background-color: #eee;
+    opacity: 1;
+    display: none; 
+}
+
+#openPic{
+    margin: 355px auto auto;
+    width: 100%;
+    height: 95px;
+    text-align: center;
+}

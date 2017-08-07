@@ -1,0 +1,38 @@
+
+<div id="H5header">
+    <div class="H5headerL">
+        <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+            <span class="hamb-top"></span>
+            <span class="hamb-middle"></span>
+            <span class="hamb-bottom"></span>
+        </button>
+        <!--<img class="H5headerL1" src="../../H5img/headerLeft.png">
+        <img class="H5headerL2" src="../../H5img/headerClose.png">-->
+    </div>
+
+    <div class="H5headerR">
+        <div class="H5headerC">
+            <router-link to="/H5home"><img src="../../H5img/headerCenter.png"></router-link>
+        </div>
+        <div class="H5headerR2">
+            <img src="../../H5img/headerRight.png"  @click="kf">
+        </div>
+    </div>
+
+    <!--客服电话 弹窗-->
+    <div class="mint-msgbox-wrapper" style="position: absolute; z-index: 2003;"></div>
+
+    <div id="H5HeaderOpen">
+        <ul>
+            <router-link to="/H5Csp"><li><div class="H5HeaderOpenLi">货准达</div></li></router-link>
+            <router-link to="/H5Tms"><li><div class="H5HeaderOpenLi">智运通</div></li></router-link>
+            <router-link to="/H5Ccp"><li><div class="H5HeaderOpenLi">来货拉</div></li></router-link>
+            <router-link to="/H5About"><li><div class="H5HeaderOpenLi">关于斯诺</div></li></router-link>
+            <router-link to="/H5Cooperate"><li><div class="H5HeaderOpenLi">战略合作</div></li></router-link>
+        </ul>
+    </div>
+
+</div>
+
+<!--<script src="./node_modules/mint-ui/lib/index.js"></script>-->
+

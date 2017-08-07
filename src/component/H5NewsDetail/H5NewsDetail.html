@@ -1,0 +1,22 @@
+<div id="newsH5Detail">
+    <H5header></H5header>
+
+    <div id="newsH5DetailCon">
+        <div id="newsH5DetailContent">
+            <div id="newsH5DetailContent1">
+                <div class="newsH5DetailTit">{{newsDetailDate.newsTitle}}</div>
+                <div class="newsH5DetailDate">{{newsDetailDate.createDateTime}} 发表</div>
+                <div class="newsH5DetailImg"><img v-bind:src="imgSrc"></div>
+                <div class="newsH5DetailText" v-html="newsDetailDate.newsContent"></div>
+            </div>
+        </div>
+
+        <div id="newsDeH5BottT"></div>
+        <div id="newsH5Bott">
+            <H5bottom></H5bottom>
+        </div>
+    </div>
+
+    <div is="H5Wei"></div>
+
+</div>

@@ -1,0 +1,73 @@
+<div id="newsAdmin">
+    <div class="ad-panel">
+        <div class="ad-panel-heading">招聘职位<span v-if="!id">新增</span><span v-if="id">编辑</span></div>
+        <div class="ad-panel-body">
+                    <el-row :gutter="20">
+                        <el-col :span="2"><span class="ad-pull-right adminJob">招聘岗位*:</span></el-col>
+                            <el-col :span="3">
+                                <el-input v-model="job" placeholder="请输入招聘岗位"></el-input>
+                                <p v-if="adminJob" class="ad-requirements">招聘岗位字数不得超过50字</p>
+                            </el-col>                        
+                        <el-col :span="4">
+                            <el-date-picker  v-model="date" type="datetime" placeholder="请选择新闻发布时间"></el-date-picker>
+                        </el-col>  
+                    </el-row> 
+
+                    <el-row :gutter="20">
+                        <el-col :span="2"><span class="ad-pull-right adminJob">招聘人数*:</span></el-col>
+                        <el-col :span="2">
+                            <el-input  id="number" v-model="number" placeholder="请输入招聘人数"></el-input>
+                             <p v-if="adminNumber" class="ad-requirements">请填写正确的招聘人数（正整数）</p>
+                        </el-col>
+                        <el-col :span="1"><span class="ad-pull-left adminJob">人</span></el-col>
+                    </el-row>
+
+                <div class="ad-panel-block">
+                    <h3>岗位职责*:</h3>
+                </div>
+
+                <div class="ad-panel-block">
+                    <div class="ad-eidtor">
+                        <!--<el-form-item prop="duty">
+                            <el-input type="textarea" id="ad-duty" v-model="recruitForm.duty"></el-input>
+                        </el-form-item>-->
+                        <template>
+                            <div>                       
+                                <vue-editor id="ad-duty" v-model="duty"></vue-editor>                              
+                            </div>
+                        </template>
+                        <p v-if="isDuty" class="ad-requirements">任职要求的字数不超过500</p>
+
+                    </div>
+                </div>
+
+                <div class="ad-panel-block">
+                    <h3>任职要求*:</h3>
+                </div>
+                <div class="ad-panel-block">
+                    <div class="ad-eidtor">
+                        <!--<el-form-item prop="requirements">
+                            <el-input type="textarea" id="ad-duty" v-model="recruitForm.requirements"></el-input>
+                        </el-form-item>-->
+                        <template>
+                            <div>
+                                <vue-editor id="ad-requirements" v-model="requirements"></vue-editor>
+                                <p v-if="isRequirements" class="ad-requirements">任职要求的字数不超过500</p>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+            
+                <div class="ad-panel-block">
+                    <el-button size="small" type="primary" v-bind:disabled="!canAdd" v-if="!id" @click="handleAdd"><span>确认新增</span></el-button>
+                    <el-button size="small" type="primary" v-bind:disabled="!canEdit" v-if="id" @click="handleEdit"><span>确认编辑</span></el-button>
+                    <el-button size="small" type="primary" @click="cancelAdd"><span>取消新增</span></el-button>
+                </div>
+
+        </div>
+    </div>
+
+ 
+    
+    
+</div>

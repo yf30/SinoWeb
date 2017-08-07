@@ -1,0 +1,32 @@
+<div id="ad-admin">
+    <div class="nav-head">
+        <!--<h1>斯诺物联后台管理系统</h1>-->
+        <el-col :span="4" class="userinfo">
+            <el-dropdown trigger="hover">
+                <span class="el-dropdown-link userinfo-inner"><img class="ad-user-img" src="../../img/ad-users.jpg" /> <span class="ad-user-name">{{userName}}</span></span>
+                <el-dropdown-menu slot="dropdown">
+                    <!--<el-dropdown-item>我的消息</el-dropdown-item>-->
+                    <el-dropdown-item @click="to_set">设置</el-dropdown-item>
+                    <el-dropdown-item  @click.native="logout">退出登录</el-dropdown-item>
+                </el-dropdown-menu>
+            </el-dropdown>
+        </el-col>
+    </div>
+
+    <ul class="ad-nav">
+        <li id="ad-name">
+            <div>
+                <span>斯诺物联</span><hr class="hidden-hr">
+                <span>官网后台管理系统</span>
+            </div>
+        </li>
+        <!--<li></li>-->
+        <li v-bind:class="{ adActive: isNews }"><router-link to="/newsAdmin"><i class="fa fa-newspaper-o"></i><span>新闻管理</span></router-link></li>
+        <li v-bind:class="{adActive:isRecruit}"><router-link to="/recruitAdmin"><i class="fa fa-shirtsinbulk"></i><span>招聘管理</span></router-link></li>
+        <li v-bind:class="{adActive:isContact}"><router-link to="/contactAdmin"><i class="fa fa-phone-square"></i><span>联系我们</span></router-link><label v-if='show_badage'  class="ad-badage">{{unCount}}</label></li>
+        <li v-bind:class="{adActive:isSetting}"><router-link to="/settingAdmin"><i class="fa fa-cog"></i><span>设置</span></router-link></li>
+    </ul>
+    <div class="ad-main">
+         <router-view></router-view>
+    </div>
+</div>

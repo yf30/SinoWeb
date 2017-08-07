@@ -1,0 +1,890 @@
+#ido{
+    width: 100%;
+    position: absolute;
+    /*top: 52px;*/
+}
+#app_tms{
+    font-family: "Microsoft YaHei"
+}
+ #tms_top{
+     display: block;
+     height:380px;
+     width:100%;
+     float:left;
+     background: url(../../img/tmsBJ.jpg) no-repeat center;
+     -webkit-animation: fadeIn 1s ease forwards;
+     animation: fadeIn 1s ease forwards
+ }
+ 
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+        left:20%;      
+    }
+    100%{
+        opacity: 1;
+        left:0;
+    }
+}
+
+
+ .tmsTop_city{
+     width:1002px;
+     margin:0 auto;
+     margin-top:159px;
+     height: 40px;
+ }
+
+ #tms_win{
+     display: block;
+     height:80px;
+     width:100%;
+     float:left;
+     background: #eeeeee
+ }
+ #tmsWin_center{
+     margin:0 auto;
+     width: 1002px;
+     height: 20px;
+     position: relative
+ }
+ .tmsWin_img1{
+    /*position: relative;*/
+    margin-top:-310px;
+    width:624px;
+    float: left;
+ }
+ .tmsWin_right{
+     float:left;
+     height: 20px;
+     position:relative;
+     top:-310px;
+     left:30px
+ }
+ .tmsTop_w{
+     position: relative;
+     top:30px;
+     left:15px;
+ }
+ .tmsTop_w2{
+     position: relative;
+     top:-40px;
+     left:145px;
+     width:190px;
+     height:55px;
+     background: url(../../img/tms_topWord2.png) no-repeat bottom;
+ }
+ .tmsWin_rightBott{
+     float:left;
+     height: 40px;
+     position:relative;
+     top:-230px;
+     left:30px
+ }
+ .topPh1{
+     /*position: relative;*/
+     float: left;
+ }
+ .topPh2{
+     float: left;
+ }
+
+
+ #tms_word{
+     height:160px;
+     width:100%;   
+     float: left;
+     background: #eeeeee
+ }
+ #tms_contWord{
+     margin:0 auto;
+     width:1005px;
+     height:160px;
+ }
+#tms_left{
+    width:910px;
+    height:160px; 
+}
+ #tms_text{ 
+     float:left; 
+     width:740px;
+     background-color:#373C3B;
+     height:160px;   
+     padding-left:25px;
+     padding-right:10px;
+ }
+
+.tms_title{
+     color: #F5F5F5;
+     font-size: 20px;
+     line-height: 30px;
+     padding:10px 0px 5px 0px;
+     font-weight: lighter
+ }
+ .tms_tit{
+     font-weight: 700;
+     color:#fff;
+     font-size: 18px;
+ }
+
+ .tms_txt{
+     font-size: 14px;
+     color:#AAA;
+     line-height: 25px;
+ }
+
+ #tms_pic{
+     /*position: relative;*/
+     float:left;
+     background-color: #292929;
+     height:160px;
+     width:230px;
+ }
+ #tms_icon{
+     width:100%;
+     height:50px;
+     margin:auto;
+     margin-top:50px;
+ }
+
+
+
+    .tms_icon1{
+        height:20px;
+        float: left;
+        width: 60px;
+    }
+    .tms_a,.tms_a:link,.tms_a:visited{
+        height:30px;
+        /*border-right: 1px solid #1c1c1c;*/
+        width:75px;
+        float:left;
+        color: #aaa;
+        background: url(../../img/tms_pc1.png) no-repeat center;
+    }
+    .lineIcon{
+    width: 3px;
+    height: 30px;
+    float: left;
+    margin-left: 2px;
+    }
+    .lineIcon1,.lineIcon2,.lineIcon3{
+        float: left;
+        width: 1px;
+        height: 30px;
+    }
+    /*.lineIcon{
+        float:left;
+        width:1px;
+        height:30px;
+        background: rgb(30,30,30);
+    }*/
+    .tms_a:hover{
+        color:#FF6700;
+        background: url(../../img/tms_pc2.png) no-repeat center;
+        text-decoration:none;
+        /*cursor:pointer*/
+    }
+
+    .tms_iconTxt{
+        padding:50px 0px 0px 25px;
+        font-size: 13px;
+    }
+
+    .tms_b,.tms_b:link,.tms_b:visited{
+       height:30px;
+       width:60px;
+       color: #aaa;
+       /*border-right: 1px solid #1c1c1c;*/
+       float:left ;
+       background: url(../../img/tms_iphone1.png) no-repeat center;
+    }
+
+    .tms_b:hover{
+        background: url(../../img/tms_iphone2.png) no-repeat center;
+        color: #FF6700;
+        text-decoration: none;
+        cursor:pointer
+    }
+    .tms_iconTxtB{
+        padding:50px 0px 0px 5px;
+        font-size: 12px;
+    }
+    .tms_b .weixin,.tms_c .weixin2{
+        display: none
+    }
+    .tms_b .weixin img,.tms_c .weixin2 img{
+        position: relative;
+        top:15px;
+    }
+    .tms_b:hover .weixin{
+        z-index:1;
+        margin-left: -35px;
+        margin-top:-5px;
+        width:130px;
+        height:150px;  
+        background: url(../../img/tms_erweima.png) no-repeat center;
+        display: block;
+    }
+
+
+
+    .tms_c,.tms_c:link,.tms_c:visited{
+        height:30px;
+        width:70px;
+        color:#aaa;
+        float:left;
+        background: url(../../img/tms_ad1.png) no-repeat center;
+    }
+    .tms_c:hover{
+        background: url(../../img/tms_ad2.png) no-repeat center;
+        color: #FF6700;
+        cursor:pointer;
+        text-decoration: none
+    }
+    .tms_iconTxtC{
+        padding:50px 0px 0px 10px;
+        font-size: 12px;
+    }
+    .tms_c:hover .weixin2{
+        z-index:1;
+        margin-left: -25px;
+        margin-top:-5px;
+        width:130px;
+        height:150px;  
+        background: url(../../img/tms_erweima.png) no-repeat center;
+        display: block;
+    }
+
+
+
+    
+
+    
+
+    #tms_content{
+        width:100%;
+        height:100%;
+        float:left;       
+        font-family: "Microsoft YaHei";
+        background: #eeeeee
+    }
+    #tms_picW{
+        background-color: #e0e0e0;
+        /*height:100%;*/
+        height: 6970px;
+        width: 1005px;
+        margin:0 auto;
+    }
+
+    #tms_cont{
+        width:100%;
+        height:175px;
+    }
+    .tms_titleW{
+        text-align: center;
+        font-size: 36px;
+        color: #333;
+        line-height:175px;
+        height:20px;
+    }
+
+    #tms_pics{
+        height:910px;
+        width:100%;
+        float:left;
+        background-color: #e0e0e0;
+    }
+    
+    
+    
+    #tms_leftPic{
+        height:575px;
+        width:459px;
+        float:left;
+    }
+    .tms_leftW{
+        margin-top:100px;
+        padding:0px 0px 0px 100px;
+        height:20px;
+        width:270px;
+        color: #666;
+        font-family: "Microsoft YaHei";
+        font-size:14px;
+        line-height: 30px;
+    }
+    .tms_rightWind{
+        float:left;
+        width:545px;
+        height:20px;
+    }
+    #tms_rightPic{
+        float:left;
+        width:545px;
+        height:675px;
+        background: url(../../img/tms_rightPC.png) no-repeat left;
+    }
+    .tms_centerWind{
+        width:655px;
+        height:20px;
+        position:relative;
+        top:280px;
+    }
+    #tms_centerPicW{
+        width:655px;
+        height:633px;
+        position:relative;
+        /*top:280px;*/
+        background: url(../../img/tms_cont1.png) no-repeat center;
+    }
+
+    #tms_car{
+        height:240px;
+        width:100%;
+        float:left;
+        background-color: #e0e0e0;
+        font-family: "Microsoft YaHei";
+        text-align: center;
+    }
+    .tmsCar_title{
+        font-size: 36px;
+        color: #333;
+        margin-top:100px;
+        margin-bottom: 30px;
+        /*padding:0px 0px 30px 0px;*/
+    }
+    .tmsCar_title div{
+        height: 20px;
+    }
+
+    .tmsCar_tit{
+        display: block;
+        height: 20px;
+        margin-top:50px;
+        margin-bottom: 60px;
+        font-size: 14px;
+        color: #666;
+    }
+
+    #tmsCar_pic{
+        height:755px;
+        width:100%;
+        float:left;
+        background-color: #e0e0e0
+    }
+
+    #tmsCar_picL{
+        float: left;
+        width:450px;
+        height:20px;
+        position: relative;
+        z-index:2;
+    }
+    #tmsCarL{
+        position: absolute;
+        top:187px;
+        left:100px;
+        height:20px;
+    }
+    .tmsCar3{
+        margin:47px 0px 0px 148px
+    }
+    .tmsCar_picRight{
+        height: 20px;
+        width:555px;
+        float:left;
+    }
+    #tmsCar_picR{
+        width:555px;
+        height:755px;
+        float:left;
+        background: url(../../img/tms_car5.png) no-repeat center
+    }
+
+    #tmsCar_ph{
+        height:813px;
+        width:100%;
+        float:left;
+        background-color: #e0e0e0
+    }
+    .tmsCar_phon{
+        height:20px;
+        top:-30px;
+    }
+    .tmsCar_phone{
+        position: relative;
+        left:154px;
+        
+    }
+
+
+
+    #tmsEvaluate{
+        text-align: center;
+        margin-bottom: 60px;
+        float:left;
+        height: 80px;
+        width: 100%
+    }
+    .tmsEvaluate_title{
+        font-size: 36px;
+        color: #333;
+    }
+    .tmsEvaluate_title div{
+        height: 20px;
+    }
+
+
+    #tmsEvaluate_pics{
+        float:left;
+        width: 100%;
+        height:622px;
+        background-color: #e0e0e0
+    }
+    .tmsEvaluate_pict{
+        height: 20px;
+        width:856px;
+    }
+    #tmsEvaluate_pic{
+        width:856px;
+        height:622px;
+        background: url(../../img/tmsEvaluate_pic.png) no-repeat center;
+    }
+
+
+
+    #tmsPay{
+        height:940px;
+        width:100%;
+        float: left;
+        text-align: center
+    }
+    .tmsPay_title{
+        font-size: 36px;
+        color: #333;
+        margin-top:80px;
+        margin-bottom: 30px;
+        /*padding-top:80px;
+        padding-bottom: 30px;*/
+    }
+    .tmsPay_title div{
+        height: 20px;
+    }
+    .tmsPay_tit{
+        margin: 50px 0px 57px 0px;
+        font-size: 14px;
+        color: #666;
+        /*padding-bottom: 57px;*/
+    }
+    .tmsPayBJ{
+        height:20px;
+        width:905px;
+        float:right;
+    }
+    #tmsPay_pics{
+        height:760px;
+        width:1006px;
+        float:right;
+        background: url(../../img/tmsPay_back.png) no-repeat right;
+    }
+    .tmsPay_pic1{
+        float:left;
+        height:20px;
+        width:353px;
+    }
+    .tmsPay_pic{
+        position:relative;
+        top:150px;
+        left:90px;
+    }
+    .tmsPay_pic2{
+        float:left;
+        height:20px;
+        width:546px;
+    }
+    .tmsPay_pic22{
+        position: relative;
+        top:27px;
+        left:-60px;
+    }
+
+
+
+    #tmsLocation{
+        height:816px;
+        width:100%;
+        float:left;
+        background-color: #e0e0e0; 
+    }
+    .tmsLocation_text{
+        text-align: center
+    }
+    .tmsLocation_title{
+        height:40px;
+        font-size: 36px;
+        color: #333;
+        margin-top: 80px;
+        margin-bottom: 30px;
+    }
+    .tmsLocation_title div{
+        height: 20px;
+    }
+    .tmsLocation_title div{
+        height: 20px;
+    }
+    .tmsLocation_tit{
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 27px;
+        margin-top:20px;
+    }
+    .tmsLocation_tit div{
+        height: 20px;
+    }
+    #tmsLocation_pic{
+        height:20px;
+        width:802px;
+        margin:0 auto;
+        /*background: url(../../img/tmsLocation.png)*/
+    }
+
+
+    #tmsReport{
+        height:815px;
+        width:100%;
+        float:left;
+        background-color: #e0e0e0
+    }
+    .tmsReport_text{
+        text-align: center;
+        width:700px;
+        line-height:30px;
+        margin:0 auto;
+        height:204px;
+    }
+    #tmsReport_pic{
+        height:380px;
+        width:636px;
+        margin-left:191px;
+    }
+    #tmsReport_picL{
+        float:left;
+        width:260px;
+        height:20px;
+    }
+    #tmsReport_picR{
+        float:left;
+        height: 20px;
+        margin-left:68px;
+    }
+    #tmsReport_picR2{
+        margin-top:8px;
+        height: 20px;
+    }
+    .tmsReport_footw{
+        height: 20px;
+    }
+    #tmsReport_foot{
+        height:75px;
+        width:636px;
+        margin-left:185px;
+        margin-top:28px;
+        background: url(../../img/tmsReport_foot.png) no-repeat;
+    }
+    #tmsReport_foot1,#tmsReport_foot2,#tmsReport_foot3,#tmsReport_foot4,#tmsReport_foot5,#tmsReport_foot6,#tmsReport_foot7{
+        float:left;
+        width:84px;
+        margin-top: 22px;
+        text-align: center;
+        height:20px;
+        /*width:35px;*/
+    }
+    #tmsReport_foot1{
+        padding-left: 20px;
+    }
+
+    /*报表分析下的图标动画*/
+    @keyframes tmsReportAnimation {
+    0% {
+        left: 50%;
+        top: 0px;
+    }
+    25% {
+        left: 50%;
+        top: 100px;
+    }
+    100% {
+        left: 50%;
+        top: 0px;
+    }
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    }
+
+    #tmsReport_footer{
+        font-family:"Microsoft YaHei";
+        font-size: 15px;
+        color:#989898;
+        padding:73px 0px 0px 30px;
+    }
+
+
+
+    #tmsApp{
+        height:670px;
+        width:100%;
+        float:left;
+        background-color: #e0e0e0;
+        padding-top:80px;
+    }
+    #tmsApp_text{
+        text-align: center;
+    }
+    .tmsApp_title{
+        font-size: 36px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+    .tmsApp_title div{
+        height: 20px;
+    }
+    .tmsApp_tit{
+        margin-top:35px;
+        margin-bottom: 10px;
+        font-size: 18px;
+        color: #666;
+    }
+    #tmsApp_pics{
+        height:640px;
+        margin-top:40px;
+        margin-left:40px;
+    }
+    #tmsApp_left{
+        float:left;
+        height: 20px;
+    }
+    #tmsApp_right ol li{
+        width:77px;
+        height:134px;
+        float: left;
+        border-radius: 0px;
+        margin-left:13px;
+    }
+
+    .carousel-indicators .active{
+        background-color: none ;
+        border:2px solid #2DA6F2 ;
+        width:12px;
+        height:12px;
+        margin:0;
+        /*transition:all .1s ease-in-out;
+        -webkit-transition:all .1s ease-in-out;
+        -moz-transition:all .1s ease-in-out;
+        -o-transition:all .1s ease-in-out;  */
+        
+    }
+    .carousel-indicators li{
+        display:inline-block;
+        width:10px;
+        height:10px;
+        margin:1px;
+        background-color: inherit ;
+        border:none ;
+        text-indent:-999px;
+        cursor:pointer;   
+    }
+
+    .carousel-indicators{
+        position:absolute;
+        bottom: 10px ;
+        width:100% ;
+        padding-left:0;
+        margin-left:-30%;
+        text-align:center;
+        list-style:none;
+        z-index:0 ;
+        top:0px ;
+        left: 47% 
+    }
+
+    #tmsApp_right .left {
+        left:17px !important;
+        background-image: none !important;
+    }
+
+    #tmsApp_right .right{
+        background-image: none !important;
+        left:463px !important
+    }
+
+    .slid1{
+        background: url(../../img/tmsApp_right1.png) no-repeat center
+    }
+    .slid2{
+        background: url(../../img/tmsApp_right3.png) no-repeat center
+    }
+    .slid3{
+        background: url(../../img/tmsApp_right6.png) no-repeat center
+    }
+    .slid4{
+        background: url(../../img/tmsApp_right7.png) no-repeat center
+    }
+    .tmsApp_L{
+        width:577px;
+        height: 448px;
+        margin-left:40px;
+        margin-top:30px
+    }
+
+
+    @media not all, (-webkit-transform-3d){
+        .carousel-inner>.item{
+            transition: none !important;
+            -webkit-transition:none !important;
+        }
+    }
+
+    #tmsApp_right{
+        position: relative;
+        width:550px;
+        height:20px;
+        top:310px;
+        left:400px;
+    }
+    .tmsApp_rightBJ{
+        position: relative;
+        width:550px;
+        height:150px;
+        /*top:310px;
+        left:400px;*/
+        background: url(../../img/tmsApp_right.png) no-repeat bottom center
+    }
+    #tmsApp_right ul{
+        list-style: none;
+        float:left;
+        height: 150px;
+        margin-bottom: 10px;
+        
+    }
+    #tmsApp_right ul li{
+        list-style: none;
+        float:left;
+        padding:0px;
+        border:none;
+        margin-left:10px
+    }
+
+
+    #tms_footer{
+        height:110px;
+        width:100%;
+        float:left;
+    }
+
+    .tms_bottom{
+        float: left;
+        width: 100%
+    }
+
+    .tms_bottom .bottom{
+        position: relative;
+        height: auto
+    }
+
+
+
+
+/*以下是boostrap.min.css样式*/
+
+
+    .carousel{
+        position:relative
+    }
+    .carousel-inner{
+        position:relative;
+        width:100%;
+        overflow:hidden
+    }
+    .carousel-inner>.item{
+        position:relative;
+        display:none;
+        -webkit-transition:.6s ease-in-out left;
+        -o-transition:.6s ease-in-out left;
+        transition:.6s ease-in-out left
+    }
+
+    .carousel-inner>.active,.carousel-inner>.next,.carousel-inner>.prev{
+        display:block
+    }
+    .carousel-inner>.active{
+        left:0
+    }
+    .carousel-inner>.next,.carousel-inner>.prev{
+        position:absolute;
+        top:0;
+        width:100%
+    }
+    .carousel-inner>.next{
+        left:100%
+    }
+    .carousel-inner>.prev{
+        left:-100%
+    }
+    
+    .carousel-inner>.active.left{
+        left:-100%
+    }
+    .carousel-control.left{
+        /*background-image:-webkit-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+        background-image:-o-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+        background-image:-webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.0001)));
+        background-image:linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);*/
+        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+        /*background-repeat:repeat-x*/
+    }
+
+        .carousel-inner>.next.left,.carousel-inner>.prev.right{left:0}
+
+        .carousel-control{
+            position:absolute;
+            top:0;
+            bottom:0;
+            left:0;
+            width:15%;
+            font-size:20px;
+            color:#fff;
+            text-align:center;
+            text-shadow:0 1px 2px rgba(0,0,0,.6);
+            background-color:rgba(0,0,0,0);
+            filter:alpha(opacity=50);opacity:.5
+        }
+        
+        .carousel-inner>.active.right{
+            left:100%
+        }
+        .carousel-control.right{
+            right:0;
+            left:auto;
+            /*background-image:-webkit-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+            background-image:-o-linear-gradient(left,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);
+            background-image:-webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.0001)),to(rgba(0,0,0,.5)));
+            background-image:linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.5) 100%);*/
+            filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+            /*background-repeat:repeat-x*/
+        }
+        
+        /*左右键按钮的显示效果*/
+        .carousel-control:focus,.carousel-control:hover{
+            color:#fff;
+            text-decoration:none;
+            filter:alpha(opacity=90);
+            outline:0;opacity:.9
+        }
+        

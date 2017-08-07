@@ -1,0 +1,41 @@
+<div id="newsAdmin">
+    <div class="ad-panel">
+        <div class="ad-panel-heading">联系我们</div>
+        <div class="ad-panel-body">
+            
+            <el-row :gutter="20">
+                <el-col :span="2"><span class="ad-pull-right">联系人:</span></el-col>
+                <el-col :span="2"><span class="ad-pull-left">{{name}}</span></el-col>
+                <el-col :span="2"><span class="ad-pull-right">联系电话:</span></el-col>
+                <el-col :span="2"><span class="ad-pull-left">{{phone}}</span></el-col> 
+                <el-col :span="2"><span class="ad-pull-right">单位名称:</span></el-col>
+                <el-col :span="2"><span class="ad-pull-left">{{company}}</span></el-col>
+                <el-col :span="2"><span class="ad-pull-right">联系时间:</span></el-col>
+                <el-col :span="4"><span class="ad-pull-left">{{date}}</span></el-col>
+               
+            </el-row>
+           
+            <div class="ad-panel-block">
+                <h3>联系内容:</h3>
+            </div>
+            <div class="ad-panel-block">
+                <textarea name="" id="" style="width:95%;font-size:14px" rows="10" v-model="content" disabled></textarea>
+                <!--<div class="ad-eidtor teatarea-disabled">
+                    <template>
+                        <div >
+                            <vue-editor v-model="content" ></vue-editor>
+                        </div>
+                    </template>
+                </div>-->
+            </div>
+            <div class="ad-panel-block">
+                <router-link to="/contactAdmin"><el-button size="small" ><span>返回</span></el-button></router-link>
+                
+             </div>
+        </div>
+    </div>
+
+ 
+    
+    
+</div>

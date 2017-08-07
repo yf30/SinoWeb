@@ -1,0 +1,32 @@
+#advantagesP{
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    bottom: 0px;
+    left: 100%;
+    z-index:20;
+    background: url(../../img/tc-bj.jpg);
+}
+
+#advantages_pics,#advantages_pics2,#advantages_pics3{
+    margin:auto;
+    height: 100%;
+    width: 100%;
+    bottom: 0px; 
+    z-index:21;
+    display: none;
+}
+#advantages_pic2{
+    width:1160px;
+    height: 100%;
+    margin:150px auto 0px auto;
+}
+#advantages_close .advantages_closed{
+    position:absolute;
+    cursor: pointer;
+    top:400px;
+    right:150px;
+    z-index: 14;
+    /*transition:none;*/
+}

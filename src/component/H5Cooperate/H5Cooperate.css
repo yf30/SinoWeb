@@ -1,0 +1,58 @@
+#CooperateH5Con{
+    width:100%;
+    height: 100%
+}
+#CooperateH5Top{
+    float:left;
+    padding-top:4.875em;
+}
+#CooperateH5TopBg{
+    width:91.64%;
+    margin:0 auto;
+}
+#CooperateH5TopBg img{
+    width:100%
+}
+
+
+#CooperateH5Words{
+    float:left;
+    width:100%;
+    padding-top:3.75em;
+    font-family: "Microsoft YaHei";
+}
+
+.CooperateH5WordsTit{
+    width:100%;
+    margin-left:28%;
+    font-size: 4.5em;
+    color:#333;
+    font-weight: 600;
+}
+.CooperateH5Line{
+    height:0.1875em;
+    width:91%;
+    background-color: #f0efee;
+    margin:3.75em auto 0em auto;
+}
+
+
+#CooperateH5Words p{
+    width:91%;
+    margin: 0 auto;
+    color:#333;
+    font-size: 2.6em;
+    line-height: 1.7em;
+}
+.CooperateH5Words1{
+    padding-top:1.78em;
+}
+.CooperateH5Words2{
+    padding-top:2.55em;
+}
+
+#CooperateBottom{
+    margin-top:8.75em;
+    float: left;
+    width:100%;
+}

@@ -1,0 +1,47 @@
+<div id="header" class="header-wrapper app-header">
+    <div class="headerfix">
+        <div class="imgStyle">
+        <router-link to="/"><img src="../../img/logo.png"></router-link>
+    </div>
+    <el-menu  class="el-menu-demo" :default-active="activeIndex" mode="horizontal" @select="handleSelect">
+        <!--<el-row>
+            <el-col :span="5">
+                <div class="imgStyle">
+                    <img src="../../img/logo.png" style="width:143px;height:54px">
+                </div>
+            </el-col>
+            <el-col :span="3">
+                <el-menu-item index="1">
+                    <router-link to="/home">首页</router-link>
+                </el-menu-item>
+            </el-col>
+            <el-col :span="3">
+                <el-menu-item index="2">
+                    <router-link to="/csp">CSP</router-link>
+                </el-menu-item>
+            </el-col>
+        </el-row>
+    -->
+        
+        <el-menu-item index="1">
+            <router-link to="/">首页</router-link>
+        </el-menu-item>
+        <el-menu-item index="2">
+            <router-link class="showOpencarton" to="/csp">货准达</router-link>
+        </el-menu-item>
+        <el-menu-item index="3">
+            <router-link class="showOpencarton" to="/tms">智运通</router-link>
+        </el-menu-item>
+        <el-menu-item index="4">
+            <router-link class="showOpencarton" to="/ccp">来货拉</router-link>
+        </el-menu-item>
+        <el-menu-item index="5">
+            <router-link to="/about">关于我们</router-link>
+        </el-menu-item>
+        <div class="menufont">
+            <p>客服电话：<span>4008-616-856</span></p>
+        </div>
+    </el-menu>
+    </div>
+
+</div>

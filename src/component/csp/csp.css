@@ -1,0 +1,347 @@
+#csp{
+    width: 100%;
+    background: #e8eaef;
+    position: absolute;
+    /*top: 52px;    */
+
+}
+.csptop{
+    height: 398px;
+    width: 100%;
+    background: url(../../img/cspbj2.jpg) repeat;
+}
+
+.topC{
+    width: 970px;
+    height: 100%; 
+    margin: auto;
+    background: url(../../img/cspbj.jpg) no-repeat;
+}
+.csptitleWow{
+    width:20px;
+    float: left;
+}
+
+.csptitle{
+    color: #fff;
+    margin-top: 136px;
+    width: 525px;
+    float: left;
+}
+
+.t{
+    font-weight: bold;
+    font-size:60px;
+    float: left;
+}
+.tlt{
+    font-size: 30px;
+    margin-left: 5px;
+    line-height: 60px;
+    font-weight: 100!important;
+}
+
+.tc{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.csptitle a{
+    display: block;
+    width: 132px;
+    height: 34px;
+    /*background: #8bc531;*/
+    background: #9DD92A;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #fff;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 34px;
+    text-shadow:0 0 0.2em #75a822,
+                -0 -0 0.2em #75a822;
+}
+
+.csptitle a:hover{
+    /*background-color: #A1D243;*/
+    /*color: #8BC220;*/
+    background-color: #8BC220;
+}
+
+.toppic{
+    margin-top: 18px;
+    float:right;
+}
+.toppicWow{
+    float: right;
+    width:20px;
+}
+
+.cspcontent{
+    width: 1000px;
+    height: 2704px;
+    margin: 55px auto 0;
+}
+
+.ctop{
+    height: 160px;
+}
+
+.ctopleft{
+    height: 141px;
+    width: 745px;
+    background: #373c3a;
+    float: left;
+    padding-top: 19px;
+    padding-left: 25px;
+}
+
+.lft{
+    color: #fff;
+    display: block;
+}
+
+.lft p{
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+}
+
+.lfc{
+    float: left;
+    margin-top: 20px;
+    color: #aaa;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.ctopright{
+    height: 160px;
+    width: 230px;
+    background: #292929;
+    float: left;
+    text-align: center;
+}
+
+.csp_pc{
+    float: left;
+    background: url(../../img/csp-pca.png) no-repeat center;
+}
+
+.csp_icon{
+    width: 60px;
+    margin: 22px auto 0;
+    height: 100px;
+}
+.csp_icon div{
+    height: 20px;
+}
+
+.csp_pc :hover{
+    color: #FF6700;
+    background: url(../../img/csp-pcb.png) no-repeat center;    
+}
+
+.ctopright p{
+    color: #aaa;
+    font-size: 12px;
+    line-height: 32px;
+    padding-top: 68px;
+}
+
+.cbody{
+    background: #dde4e9;
+    padding-top: 72px;
+}
+
+.bt{
+    text-align: center;    
+}
+
+.bt p{
+    height: 20px;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 60px;
+    color: #0b75b4;
+}
+
+.btSpan{
+    height: 20px;
+    font-size: 16px;
+    color: #666;
+    /*line-height: 36px;*/
+    margin-top:50px;
+}
+.btImg{
+    height: 20px;
+}
+.btimg{  
+    margin-top: 43px;
+    height:632px
+}
+
+.query,.track,.analy{
+    padding-left: 27px;
+    height: 100%;
+}
+.qt{
+    float: left;
+    width: 100%;
+}
+.qt div{
+    height: 20px;
+    float: left;
+}
+.qt span{
+    display: block;
+    float: left;
+    width: 6px;
+    height: 28px;
+    background: #2b73b8;
+}
+
+.qt p{
+    float: left;
+    font-size: 24px;
+    color: #353940;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.qb{
+    margin: 80px 78px 100px 139px;
+    display: inline-block;
+}
+
+.w{
+    display: block;
+    text-align: center;
+    margin-right: 88px;
+    float: left;
+}
+.w div{
+    height:20px;
+}
+
+.w p{
+    color: #373b3b;
+    font-size: 16px;
+    margin-top: 22px;
+}
+
+.train{
+    background: url(../../img/csp-map.png) no-repeat 0px -60px;
+    margin-top: 115px;
+}
+
+.tb{
+    display: inline-block;
+    height: 425px;
+    margin: 102px 0px 159px 132px;
+    position: relative;
+}
+.tbImg1{
+    position: relative;
+    height: 20px;
+}
+
+.map_quan{
+    position: absolute;
+    top: 80px;
+    left: 186px;
+}
+
+.tb a{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    display: block;
+    background: url(../../img/csp_blue.png) no-repeat center;
+    cursor: pointer
+}
+
+.tb a:hover{
+    background: url(../../img/csp_red.png) no-repeat center;    
+}
+
+.map_icon1{
+    top: 168px;
+    left: 324px;
+}
+
+
+.map_icon2{
+    top: 210px;
+    right: 230px;
+}
+
+.map_icon3{
+    top: 235px;
+    right: 210px;
+}
+
+.map_icon4{
+    top: 271px;
+    left: 214px;
+}
+
+.map_icon5{
+    bottom: 90px;
+    right: 198px;
+}
+
+.map_icon6{
+    bottom: 84px;
+    right: 139px;
+}
+
+.map_icon7{
+    bottom: 57px;
+    left: 349px;
+}
+
+.map_icon8{
+    bottom: 42px;
+    left: 286px;
+}
+
+.map_icon9{
+    bottom: -20px;
+    right: 262px;
+}
+
+.map_icon10{
+    bottom: -25px;
+    right: 248px;
+}
+
+.map_icon11{
+    bottom: -39px;
+    left: 287px;
+}
+
+.map_icon12{
+    bottom: -55px;
+    left: 320px;
+}
+
+.ab{
+    display: inline-block;
+    height:425px;
+    margin: 50px 0px 100px 132px;
+}
+.ab div{
+    height:20px;
+}
+
+.csp_foot{
+    width: 100%;
+    margin-top:50px;
+}
+
+.csp_foot .bottom{
+    position: relative;
+    bottom: 0px;
+    height: auto;
+}

@@ -1,0 +1,75 @@
+<div id="login" class="container">
+    <div class="login-bg">
+        
+    </div>
+
+    <div class="login-area">
+         
+        <div class="form-horizontal login-right" id="register_form">  
+          
+            <div class="login-title">
+                <img src="../../../img/login-logo.png" alt="">
+                <h3>斯诺物联官网后台管理系统</h3>
+            </div>
+            
+            <div class="login-panel">
+                
+                <div class="login-username">  
+                    <span class="username-icon"></span>
+                    
+                    <input class="login-username-ipt login-ipt" v-model="username" type="text" placeholder="请输入用户名" name="username" autofocus="autofocus"/>  
+                </div>  
+                <div class="login-password">  
+                        <span class="password-icon"></span>
+                        <input class="login-password-ipt login-ipt" v-model="password"  type="password" placeholder="请输入密码" id="register_password" name="password"/>  
+                </div>  
+                    
+                
+                <div class="login-remember">
+                    <span class="login-check" @click="toggleCheck"></span>
+                    <p>记住用户名和密码</p>
+                </div>
+                <div class="login-btn">
+                    <span @click="login()">登 录</span>
+                </div>
+
+                 <div class="login-wechat">
+                    <span class="login-QRCode"></span>
+                    <p>关注微信公众号</p>
+                    <div class="login-QRCodeImg">
+                        <img src="../../../img/login-QRCode-lg.png" alt="">
+                    </div>
+                </div>
+
+                <div class="login-footer">
+                    <p>Copyright © 2017, All Rights Reserved Powered By</p>
+                    <p>JIANGSU SINO LOGISTICS NETWORKING TECHNOLOGY CO.,LTD.</p>
+                </div>
+            </div>
+
+        </div>
+        <!--<div class="login-footer">
+            <small>Copyright © 2017, All Rights Reserved Powered By JIANGSU SINO LOGISTICS NETWORKING TECHNOLOGY CO.,LTD.</small>
+        </div>  -->
+    </div>
+
+   
+    <div class="modal fade" id="QRCodeImg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    
+                    <div class="login-imgDetail">
+                        <!--<img class="login-imgDetail" src="./src/assets/img/erweima.png" alt="">-->
+                    </div>
+
+                </div>
+               
+            
+            </div>
+        </div>
+    </div>
+
+
+
+</div>

@@ -1,0 +1,162 @@
+/* Demos Menu
+ * --------------------------------------- */
+
+ header{
+     display: block;
+     height: 90px;
+ }
+.section {
+	background-size: cover;
+	font-style: #333333;
+	background:url(../../img/bj-fugai.png) repeat;
+}
+#section0 {
+    position: relative;
+}
+#section1{
+    background: url('../../img/showprojectBJ.jpg') no-repeat center	;
+    background-size: cover;
+}
+
+#section2{
+    background: url('../../img/advantageBJ.jpg') no-repeat center;
+    background-size: cover;	
+}
+
+#section4{
+    background: url('../../img/downloadBJ.jpg') no-repeat center;
+    background-size: cover;	
+}
+
+.changePath1{
+    opacity: 1!important;
+    transition: opacity 5s cubic-bezier(.25,.46,.45,.94) 1.5s;
+    -webkit-transition: opacity 5s cubic-bezier(.25,.46,.45,.94) 1.5s;
+}
+
+.changePath2{
+    opacity: 1!important;
+    transition: opacity 2s cubic-bezier(.25,.46,.45,.94) 3.8s;
+    -webkit-transition: opacity 2s cubic-bezier(.25,.46,.45,.94) 3.8s;
+}
+
+.changePath3{
+    opacity: 1!important;
+    transition: opacity 2s cubic-bezier(.25,.46,.45,.94) 2.5s;
+    -webkit-transition: opacity 2s cubic-bezier(.25,.46,.45,.94) 2.5s;
+}
+
+.fonttrasition{
+    opacity: 1!important;
+    transition: opacity 2s cubic-bezier(.25,.46,.45,.94) 1s;
+    -webkit-transition: opacity 2s cubic-bezier(.25,.46,.45,.94) 1s;
+}
+svg path{
+    stroke: #4993e5;
+    fill: transparent;
+    stroke-width: 10px;
+    opacity: 0;
+}
+
+@keyframes act {
+    100% {
+        stroke-dashoffset: 0;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes act{
+    100% {
+        stroke-dashoffset: 0;
+        opacity: 1;
+    }
+}
+
+.fontContent{
+    opacity: 1!important;
+    transition: opacity 2s cubic-bezier(.25,.46,.45,.94) 5s;
+    -webkit-transition: opacity 2s cubic-bezier(.25,.46,.45,.94) 5s;
+}
+
+.arrowtransition1{
+    opacity: 1!important;
+    transition: opacity 0.5s cubic-bezier(.25,.46,.45,.94) 3.5s;
+    -webkit-transition: opacity 0.5s cubic-bezier(.25,.46,.45,.94) 3.5s;
+}
+
+.arrowtransition2{
+    opacity: 1!important;
+    transition: opacity 0.5s cubic-bezier(.25,.46,.45,.94) 4.5s;
+    -webkit-transition: opacity 0.5s cubic-bezier(.25,.46,.45,.94) 4.5s;
+}
+
+#section3 {
+	/*padding: 67px 0 0 0;*/
+	background: url(../../img/ju-bj.png) repeat;
+
+}
+
+#section4 {
+	/*padding: 100px 0 0 0;*/
+    background-color: #eee;
+}
+#section4 .bottom{
+    margin-top:20px;
+}
+
+.fullpagebottom{
+	position: relative;
+    bottom: -107px;
+}
+
+/*#fullpagefoot{
+	position: fixed;
+    top: 70%;
+    width: 100%;
+    padding: 0;
+    z-index: 100;	
+}*/
+
+#fp-nav,#fp-nav.right{
+	margin-top: -32px!important;
+}
+
+#fp-nav ul li{
+	width: 30px;
+	height: 30px;
+	margin: 0;
+}
+
+#fp-nav ul li .fp-tooltip.right{
+	right: 38px;
+}
+#fp-nav ul li .fp-tooltip{
+    color: #333333;
+	top: 9px;
+    font-family: "Microsoft YaHei","微软雅黑";
+}
+#fp-nav ul li a span{
+    background-color: #666;
+	height: 8px;
+    width: 8px;
+	-webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+	transition:none
+}
+#fp-nav ul li a.active span,#fp-nav ul li a:hover span ,#fp-nav ul li:hover a.active span{
+    background-color: #fff;	
+	border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    height: 8px;
+    width: 8px;
+	border:0;
+    border: 11px solid rgba(8,63,138,0.5);
+    margin: -12px 0 0 -14px;
+    -webkit-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.320, 1.5);
+    -moz-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.320, 1.5);
+    -o-transition: all 0.3s cubic-bezier(0.175, 0.885, 0.320, 1.5);
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.320, 1.5);
+}
+

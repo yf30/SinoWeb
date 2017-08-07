@@ -1,0 +1,43 @@
+#slideCont{
+    position: relative;
+    width:1160px;
+    margin:0 auto;
+    overflow: hidden;
+    margin-top:60px;
+}
+
+#slideContainer{
+    position: relative;
+    width: 1112px;
+    margin-left:24px;
+    /*margin: 0 auto;*/
+    overflow: hidden;
+}
+#sliderTV{
+    position: relative;
+    height:350px;
+    width: 2090px;
+    left: 0px;
+}
+.sliderTV__item{
+    width:230px;
+    height:100%;
+    float: left;
+    margin:0px 24px 0px 24px;
+    font-family:"Microsoft YaHei"
+}
+.btnContainer{
+    width: 420px;
+    margin: 0 auto;
+    text-align: center
+}
+
+.btnContainer button{
+    background: none;
+    width:32px;
+    border:none;
+    padding:0px;
+    outline: none;
+    margin: 80px auto 0px auto;
+    cursor: pointer;
+}

@@ -1,0 +1,167 @@
+/*#login{
+    position: relative;
+    width: 100%;
+   
+    background: url('../../../img/login-bg01.jpg')
+}*/
+.login-bg{
+    position: fixed;
+    min-width: 1200px;
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+    min-height: 950px;
+    z-index: 1;
+    background: url('../../../img/login-bg01.jpg');
+    background-size: 100% 100%;
+    
+}
+.login-area{
+    position: fixed;
+    width: 800px;
+    right: 0px;
+    bottom: 0px;
+    top: 0px;
+    z-index: 2;
+    background: url('../../../img/login-bg02.jpg');
+}
+
+.login-title{
+    
+    margin-top: 236px;
+    width: 100%;
+    margin-bottom: 48px;
+}
+.login-title img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 26px;
+}
+.login-title h3{
+    font-family: 微软雅黑;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+.login-panel{
+    width: 500px;
+    margin: 0 auto;
+}
+.login-panel input:-webkit-autofill{
+    -webkit-box-shadow:0 0 0 1000px #fff inset !important
+}
+.login-username, .login-password{
+    width: 500px;
+    height: 60px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border:1px solid #999;
+    border-radius: 4px;
+}
+.username-icon{
+    display: inline-block;
+    width: 64px;
+    height: 60px;
+    background: url('../../../img/login-yonghu.png') no-repeat;
+    background-position: 50% 50%;
+}
+.password-icon{
+    display: inline-block;
+    width: 64px;
+    height: 60px;
+    background: url('../../../img/login-psw.png') no-repeat;
+    background-position: 50% 50%;
+}
+.login-ipt{
+    height: 60px;
+    display: block;
+    float: right;
+    border:0px;
+    padding: 0px;
+    width: 426px;
+    border:0px;
+    border-radius: 4px;
+    padding-left: 10px
+}
+.login-remember{
+    margin-bottom: 20px;
+    height: 24px;
+}
+.login-check{
+
+    display: block;
+    float: left;
+    width: 22px;
+    height: 22px;
+    border:1px solid #d7e3f2;
+    border-radius: 3px;
+}
+.login-checked{
+    background: url('../../../img/login-gou.png') no-repeat;
+    background-position: 50% 50%;
+}
+.login-remember p{
+    font-size: 14px;
+    font-family: 微软雅黑;
+    line-height: 24px;
+    text-align: left;
+    padding-left: 34px;
+}
+.login-btn{
+    cursor: pointer;
+    width: 500px;
+    height: 60px;
+    /*border*/
+     background-color: #3791ed;
+    /*filter:alpha(opacity=30); 
+    -moz-opacity:0.3; 
+    opacity:0.3;*/
+    border:1px solid #2c88eb;
+    box-shadow: 0px 0px 10px 0px #378fee;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.login-btn span{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-family: 微软雅黑;
+    color: #fff;
+    padding-top: 20px;
+}
+.login-wechat{
+    height: 24px;
+    margin-bottom: 46px;
+}
+
+.login-QRCode{
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url('../../../img/login-erweima.png');
+    float: left;
+    margin-left: 370px;
+}
+.login-wechat p{
+    font-size: 14px;
+    font-family: 微软雅黑;
+    line-height: 24px;
+    text-align: right;
+    /*padding-left: 34px;*/
+}
+.login-wechat div{
+    position: relative;
+    left: 310px;
+    display: none;
+}
+.login-wechat:hover div{
+    display: block;
+}
+.login-footer p{
+    font: 12px Arial;
+    color: #333;
+    text-align: center;
+}
+

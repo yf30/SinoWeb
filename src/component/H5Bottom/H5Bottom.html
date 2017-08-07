@@ -1,0 +1,28 @@
+<div id="H5Bottom">
+    <div id="H5BottomF">
+        <ul>
+            <router-link to="/H5About"><li><div>关于斯诺</div></li></router-link>
+            <router-link to="/H5News"><li><div>新闻动态</div></li></router-link>
+             <!--@click.native="clickRouterLink()"-->
+
+            <router-link to="/H5Job"><li><div>人才招聘</div></li></router-link>
+            <router-link to="/H5Cooperate"><li><div>战略合作</div></li></router-link>
+            <a class="H5BottomA"  @click="openH5Wei"><li><div>关注我们</div></li></a>
+        </ul>
+
+        <div id="H5BottomFooter">
+            <a @click="kfs">
+                <p class="H5BottomFooter1">客服电话</p>
+                <p class="H5BottomFooter2">4008-616-856</p>
+            </a>
+            <p class="H5BottomFooter3">版权所有:&nbsp;江苏斯诺物联科技有限公司&nbsp;苏ICP备13054122号</p>
+        </div>
+
+        <!--客服电话 弹窗-->
+        <div class="mint-msgbox-wrapper" style="position: absolute; z-index: 2003;"></div>
+    </div>
+
+</div>
+
+<!--<script src="./node_modules/mint-ui/lib/index.js"></script>-->
+

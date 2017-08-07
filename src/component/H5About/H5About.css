@@ -1,0 +1,115 @@
+#aboutH5Con{
+    height:100%;
+    width: 100%;
+}
+
+#aboutH5Top{
+    float:left;
+    padding-top:4.875em;
+}
+#aboutH5TopBg{
+    width:91.64%;
+    margin:0 auto;
+}
+#aboutH5TopBg img{
+    /*height: 34.625em;*/
+    width:100%;
+}
+
+
+#aboutH5Words{
+    float:left;
+    padding-top:2.1em;
+    text-indent: 2em;
+    font-family: "Microsoft YaHei";
+    font-size: 2.06em;
+    color:#666;
+    line-height:1.6em;
+}
+#aboutH5Words b{
+    color:#666;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+#aboutH5Words p{
+    width:92%;
+    margin:0 auto;
+    padding-bottom:2.25em;
+}
+
+.aboutH5WordsL{
+    width: 91.7% !important;
+    margin: 0 auto;
+    text-indent: 0em;
+    padding-bottom: 0em;
+}
+
+#aboutH5Advan{
+    float:left;
+    width:100%;
+    padding-top:2.875em;
+    font-family: "Microsoft YaHei";
+}
+
+#aboutH5Advan b{
+    margin-left:35%;
+    text-align: center;
+    color:#666;
+    font-size: 4.5em;
+}
+#aboutH5Advan ul{
+    width:100%;
+    float:left;
+    margin-top:2.75em;
+}
+#aboutH5Advan ul li{
+    width:92%;
+    margin: 0 auto;
+    height:26.25em;
+    margin-bottom:4.68em;
+}
+.aboutH5Advan1{
+    height:26.25em;
+    /*width:64.6875em;*/
+    border-radius: 0.94em;
+    background: #7695d7;
+}
+.aboutH5AdvanL{
+    float: left;
+    padding: 3.56em 0em 0em 5.937em;
+    width:14em;
+}
+.aboutH5AdvanL p{
+    color:#fff;
+    font-size: 3.375em;
+    padding-top:1em;
+    text-align: center;
+}
+.aboutH5AdvanR{
+    float: right;
+    padding-right: 1em;
+    width:55%;
+    color:#fff;
+    font-size: 2.25em;
+    padding-top:2.25em;
+    line-height:1.85em;
+    font-weight: 400
+}
+
+.aboutH5Advan2{
+    height:26.25em;
+    border-radius: 0.94em;
+    background: #81b5d0;
+}
+
+.aboutH5Advan3{
+    height:26.25em;
+    border-radius: 0.94em;
+    background: #82c6b4;
+}
+
+#ccpBottom{
+    width:100%;
+    float: left;
+    margin-top:2.8125em;
+}

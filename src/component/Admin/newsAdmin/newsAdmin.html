@@ -1,0 +1,70 @@
+<div id="newsAdmin">
+    <div class="ad-panel">
+        <div class="ad-panel-heading">新闻管理</div>
+        <div class="ad-panel-body">
+            <div class="ad-query">
+                <el-col :span="2"><span>标题:</span></el-col>
+                <el-col :span="3"><el-input class="ad-input" v-model="title" placeholder="请输入内容"></el-input></el-col>
+
+                <el-col :span="2"><span>起始时间:</span></el-col>
+                <el-col :span="3">
+                     <el-date-picker v-model="startTime" type="datetime" placeholder="选择起始时间"></el-date-picker>
+                </el-input></el-col>
+
+                <el-col :span="2"><span>结束时间:</span></el-col>
+                <el-col :span="3">
+                     <el-date-picker v-model="endTime" type="datetime" placeholder="选择结束时间"></el-date-picker>
+                </el-input></el-col>
+
+                <el-col :span="1"><span></span></el-col>
+                <el-col :span="3">
+                     <el-button size="small" class="ad-btn-small" @click="query()" ><i v-if="!querying" class="el-icon-search"></i><i v-if="querying" class="el-icon-loading"></i>搜索</el-button>
+                </el-input></el-col>
+            </div>
+            
+        </div>
+    </div>
+
+     <div class="ad-panel">
+        <div class="ad-panel-heading">新闻列表</div>
+        <div class="ad-panel-body">
+            <template>
+                <el-table :data="newsList" border style="width: 100%">
+                    <el-table-column prop="index" label="序号" ></el-table-column>
+                    <el-table-column prop="newsTitle" label="标题" ></el-table-column>
+                    <el-table-column prop="createDateTime" label="日期" ></el-table-column>
+                    <el-table-column label="操作">
+                            <template scope="scope">
+                                <i class="el-icon-edit ad-cursor" @click="handleEdit( scope.row.id)" title="编辑"></i>
+
+                                <i class="el-icon-delete ad-cursor" @click="handleDelete( scope.row.id)" title="删除"></i>
+                               
+                            </template>
+                    </el-table-column>
+                </el-table>
+            </template>
+        
+            <div class="ad-panel-block">
+                <el-pagination
+                    @size-change="handleSizeChange"
+                    @current-change="handleCurrentChange"
+                    :current-page="curPage"
+                    :page-sizes="[10, 20, 30]"
+                    :page-size="pageSize"
+                    layout="total, sizes, prev, pager, next, jumper"
+                    :total="total">
+                </el-pagination>
+
+            </div>
+
+            <div class="ad-panel-block">
+                <router-link to="/addNews"><el-button size="small" type="primary"><span>新增新闻</span></el-button></router-link>
+            </div>
+           
+        </div>
+        
+    </div>
+
+
+ 
+</div>

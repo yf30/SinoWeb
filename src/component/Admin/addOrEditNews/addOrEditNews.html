@@ -1,0 +1,70 @@
+<div id="newsAdmin">
+    <div class="ad-panel">
+        <div class="ad-panel-heading"><span v-if="id">新闻编辑</span><span v-if="!id">新闻新增</span></div>
+        <div class="ad-panel-body">
+
+            <el-row :gutter="20">
+                <el-col :span="1"><span>标题*:</span></el-col>
+                <el-col :span="6">
+                    <el-input v-model="title" placeholder="请输入新闻标题"></el-input>
+                    <p v-if="adminTi" class="ad-requirements"> 标题不得超过50字</p>
+                    <!--<p v-if="adminTit" class="ad-requirements"> 标题为必填项</p>-->
+                </el-col>
+                <el-col :span="4">
+                    <el-date-picker v-model="date" type="datetime" placeholder="请选择新闻发布时间"></el-date-picker>
+                </el-col>
+            </el-row>
+            <div class="ad-panel-block">
+                <h3>新闻内容*:</h3>
+            </div>
+            <div class="ad-panel-block">
+                <div class="ad-eidtor">
+                    <template>
+                        <div >
+                            <vue-editor id="news-content" v-model="content"></vue-editor>
+                            <p v-if="adminContent" class="ad-requirements">新闻内容不得超过1000字</p>
+                            <!--<p v-if="adminContents" class="ad-requirements"> 新闻内容为必填项</p>-->
+                        </div>
+                    </template>
+                </div>
+            </div>
+            <div class="ad-panel-block">
+                <h3>新闻图片*:</h3>
+                <el-row :gutter="50">
+                    <el-col :span="4">
+                        <img class="img-responsive" id="newsImg" v-bind:src="imgSrc" style="width:200px;height:200px" />
+                        <!--<p v-if="adminNews" class="ad-requirements"> 新闻图片为必填项</p>-->
+                    </el-col>
+                    <el-col :span="2">
+                        <input type="file" style="display:none" @change="selectFile" accept="image/gif,image/jpeg,image/jpg,image/png,image/bmp" id="newsFile" name="newsFile" class="file-hide" />
+                        <div class="img-btn">
+                            <el-button size="small" type="primary" onclick="newsFile.click()"><span>选择图片</span></el-button>
+                        </div>
+                        <div class="img-btn">
+                            <el-button size="small" type="primary" v-bind:disabled="!canAdd" v-if="!id" @click="handleAdd"><span>确认新增</span></el-button>
+                            <el-button size="small" type="primary" v-bind:disabled="!canEdit" v-if="id" @click="handleEdit"><span>确认修改</span></el-button>
+                        </div>
+                        <div class="img-btn">
+                            <el-button size="small" type="primary" @click="cancelAdd"><span>取消<span v-if="!id">新增</span><span v-if="id">修改</span></span>
+                            </el-button>
+                        </div>
+
+
+                    </el-col>
+                </el-row>
+            </div>
+
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+
+</div>

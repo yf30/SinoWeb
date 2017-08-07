@@ -1,0 +1,63 @@
+.app-header{
+    display: block;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 90px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+    overflow-x: hidden;
+    background: #fff;
+}
+/*.headerCon{
+    width:1424px;
+}*/
+
+/*::-webkit-scrollbar-thumb:window-inactive{
+    background: rgba(255,0,0,0.4); 
+}*/
+
+.headerfix{
+   width: 1160px;
+   overflow-x: hidden;
+   margin: auto;
+}
+.imgStyle{
+    float: left;
+    margin: 20px 0 0 0;
+    /*width: 143px;
+    height: 44px;*/
+}
+.el-menu{
+    position: none!important;
+    float: right!important;
+    background-color: #ffffff!important;
+}
+.el-menu-item{
+    font-size: 14px!important;
+    color: #666!important;
+    padding: 0!important;
+    height: 90px!important;
+    line-height: 90px!important;
+    background: #fff;
+}
+
+.el-menu--horizontal .el-menu-item a{
+    display: block!important;
+    width: 102px;
+    text-align: center;
+}
+.el-menu-item:hover,.el-menu-item.is-active{
+    color: #ffffff!important;
+    border-bottom: 4px solid #ff6600!important;
+    background: url(../../img/daohang-bj.jpg)!important;
+}
+.menufont,.menufont p{
+    float: left;
+    color: #666;
+    margin-left:20px;
+    margin-top: 19px;
+    font-size: 14px;
+}
+.menufont p span{
+    color: #005edf;
+}

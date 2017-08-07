@@ -1,0 +1,79 @@
+<div id="jobH5">
+    <H5header></H5header>
+
+
+    <div id="jobH5Content">
+        <div id="jobH5Top">
+            <div id="jobH5TopBg">
+                <img src="../../H5img/jobTop.png">
+            </div>
+        </div>
+
+        <div id="jobH5Z">
+            <p class="jobH5P">更多奇迹，与你一同发现</p>
+
+            <!--<ul id="firstpane" class="menu_list">
+                <li v-for="item in newsH5Date" @click="jobH5(item.id)">
+                    <h3 class="menu_head current currentImg2"><div class="jobH5TitleBg">{{item.recruitPost}}</div></h3>
+                    <div style="display:none" class="menu_body">
+                        <div class="jobH5Text1">
+                            <p class="jobH5Title">岗位职责:</p>
+                            <div class="jobH5Txt" v-html="item.postResponsibility"></div>
+                        </div>
+                        <div class="jobH5Title2">
+                            <p class="jobH5Title">任职要求：</p>
+                            <div class="jobH5Txt" v-html="item.requirements"></div>
+                        </div>
+
+                    </div>
+                </li>
+ 
+            </ul>-->
+           
+    </div>
+
+    <section id="conter">
+        <section id="firstpane">
+            <details class="menu" v-for="item in newsH5Date">
+                <summary class="menu_heads"><div class="jobH5TitleBg">{{item.recruitPost}}</div></summary>
+                <ul>
+                    <li class="jobH5Text1">
+                        <p class="jobH5Title">岗位职责:</p>
+                        <div class="jobH5Txt" v-html="item.postResponsibility"> 
+                        </div>
+                    </li>
+                    <li>
+                        <p class="jobH5Title">任职要求：</p>
+                            <div class="jobH5Txt" v-html="item.requirements">
+                            </div>
+                    </li>
+                    <!--<li>
+                        <p class="jobH5Title">精英程序员要求：</p>
+                            <div class="jobH5Txt">
+                                <p>1.掌握三层结构的设计模式、工厂模式；</p>
+                                <p>2.熟悉WINFORM开发，掌握GDI+,SOCKET编程；</p>
+                                <p>3.了解MONO.net，c#的手机APP开发。</p>
+                            </div>
+                    </li>-->
+                </ul>
+            </details>
+
+        </section>
+    </section>
+
+     
+        <div id="jobH5Bott">
+            <H5bottom></H5bottom>
+        </div>
+
+    </div>
+
+
+
+    
+
+    <div is="H5Wei"></div>
+
+
+</div>
+

@@ -1,0 +1,184 @@
+#ccpH5{
+    width:100%;
+    height:100%
+}
+
+#ccpH5Top{
+    float:left;
+    width:100%;
+    /*background: url(../../H5img/ccpTop.jpg) no-repeat center;*/
+}
+#ccpH5Top img{
+    width:100%;
+}
+
+#ccpH5Content{
+    float: left;
+    width:100%;
+    margin-top:-0.125em;
+    background-color: #f2f2f4;
+}
+
+#ccpH5Down{
+    padding-top:4.75em;
+    width:80.45%;
+    margin:0 auto;
+}
+
+.ccpH5Down1{
+    display: block;
+    float: left;
+    width:48%
+}
+.ccpH5Down2{
+    display: block;
+    float: right;
+    width:48%
+}
+
+.ccpH5Down1 img, .ccpH5Down2 img{
+    width:100%
+}
+
+#ccpH5Phone{
+    float: left;
+    width:100%;
+    text-align: center;
+    font-family: "Microsoft YaHei";
+}
+.ccpH5PhoneTit{
+    padding-top:1em;
+    color:#333;
+    font-size: 4.5em;
+}
+.ccpH5PhoneTit2{
+    color: #666;
+    font-size: 1.69em;
+    padding-top:1.65em;
+}
+.ccpH5Phones{
+    padding-top:3.25em
+}
+.ccpH5Phones div{
+    width: 80.45%;
+    margin:0 auto
+}
+
+.ccpH5Phones div img{
+    width:100%
+}
+
+#ccpH5Contract{
+    float: left;
+    width: 100%
+}
+.ccpH5ContractW{
+    text-align: center;
+    color:#333;
+    font-family: "Microsoft YaHei";
+    font-size: 1.9em;
+    padding-top:3.34em;
+    width:89.34%;
+    line-height:1.5em;
+    margin: 0 auto
+}
+
+#ccpH5ContractP{
+    width:100%;
+    float: left;
+}
+#ccpH5ContractP ul{
+    width:80.45%;
+    margin: 0 auto;
+}
+#ccpH5ContractP ul li{
+    margin-top:4.625em;
+    float:left;
+    width:100%;
+    box-shadow:0em 0em 1.5em rgba(64,64,64,0.1)
+}
+.ccpH5ContractP1{
+    float:left;
+    height:16.35em;
+    text-align: center;
+    width:33.2%;
+    background-color:#eb5e3a;
+}
+#ccpH5ContractP ul li img{
+    margin-top:2.6em;
+}
+.ccpH5ContractP2{
+    float:left;
+    width:59.2%;
+    height:14.25em;
+    /*height:15em;*/
+    background-color: #fff;
+    padding-top:2.1em;
+    padding-left: 7.6%;
+    font-family: "Microsoft YaHei";
+}
+.ccpH5ContractP3{
+    color:#333;
+    font-size: 4.3em;
+}
+.ccpH5ContractP4{
+    padding-top:1.1em;
+    padding-right:1em;
+    color:#666;
+    font-size: 2em;
+    line-height:1.5em;
+}
+
+.ccpH5ContractP12{
+    float:left;
+    height:16.35em;
+    text-align: center;
+    width:33.2%;
+    background-color:#1b89d5;
+}
+
+.ccpH5ContractP13{
+    float:left;
+    height:16.35em;
+    text-align: center;
+    width:33.2%;
+    background-color:#f0ae00;
+}
+
+.ccpH5ContractP14{
+    float:left;
+    height:16.35em;
+    text-align: center;
+    width:33.2%;
+    background-color:#29ae66;
+}
+
+#ccpH5Bott{
+    float:left;
+}
+.ccpH5W5{
+    width:100%;
+    float: left;
+    text-align: center;
+    padding-top:2.5em;
+    color:#999;
+    font-family: "Microsoft YaHei";
+    font-size: 2.25em;
+}
+
+.ccpH5Wei{
+    float:left;
+    width:100%;
+    text-align: center;
+    padding-top: 3.75em;
+}
+.ccpH5WeiW{
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-top: 1.875em;
+    color:#999;
+    font-family: "Microsoft YaHei";
+    font-size: 2.25em;
+    padding-bottom:2.7em;
+}

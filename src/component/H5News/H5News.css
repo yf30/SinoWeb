@@ -1,0 +1,139 @@
+
+#newsH5{
+    height:100%;
+    width:100%;
+    font-family: "Microsoft YaHei";
+    overflow: hidden
+}
+#newsH5Content{
+    /*top:9.56em;*/
+    /*-webkit-box-sizing : border-box;  
+    -webkit-overflow-scrolling : touch;   苹果手机的弹性滚动条   */
+    float:left;
+    width: 100%;
+    height:100%;
+    padding-top:0.56em;
+    background-color: #fafafa;
+    overflow: auto
+}
+#newsH5Content ul{
+    float:left;
+    width:100%;
+}
+#newsH5Content ul li{
+    width:100%;
+    padding-top: 4.56em;
+    border-bottom:3px solid #d0d0d0;
+}
+#newsH5Content1{
+    width:91%;
+    margin: 0 auto;
+}
+/*上拉加载更多，必须要有这个样式，不然下拉没用*/
+.page-loadmore-wrapper{
+    overflow: scroll;
+    -webkit-overflow-scrolling:touch;
+    /*overflow-y: auto;*/
+}
+
+/*奇数li*/
+#newsH5Content ul li:last-child{
+    border-bottom:none;
+}
+/*偶数li*/
+/*#tmsH5BlueWP li:nth-child(even){
+    margin-left:6.875em;
+    height:20.625em;
+    float: left; 
+    background: url(../../H5img/tmsBlueLine.png) repeat-y;
+}*/
+.newsH5ContentTit{
+    color:#333;
+    font-family: "Microsoft YaHei";
+    font-size: 3.9375em;
+    line-height:1.5em;
+}
+.newsH5ContentDate{
+    /*line-height:2.5em;*/
+    font-family: "Microsoft YaHei";
+    padding-top:1em;
+    font-size: 2.25em;
+    color: #999;
+}
+.newsH5ContentImg{
+    margin-top:2.75em;
+    height:33.125em;
+    /*width:64.75em;*/
+}
+
+.newsH5ContentImg img{
+    display: block;
+    width:100%;
+    height:100%;
+    margin:auto;
+}
+.newsH5ContentText{
+    padding-top:1.875em;
+    padding-bottom:2em;
+    color:#666;
+    font-family: "Microsoft YaHei";
+    font-size: 2.625em;
+    line-height: 1.5em
+}
+.newsH5ContentA span{
+    position:relative;
+    top:-3.2em;
+    left:15.5em;
+    color:#2b75df;
+    font-family: "Microsoft YaHei";
+    font-size: 2.7em;
+}
+#newsH5More{
+    font-family: "Microsoft YaHei";
+    font-size:2.812em;
+    color:#d0d0d0;
+}
+.newsH5D{
+    font-family: "Microsoft YaHei";
+    font-size:2.812em;
+    color:#d0d0d0;
+}
+.mint-loadmore-bottom{
+    float:left;
+    /*position: relative;*/
+    width:100%;
+    height:10em;
+    margin-bottom: 0em
+}
+.mint-loadmore-bottom span{
+      display: inline-block;
+      transition: .2s linear;
+      vertical-align: middle;
+    }
+
+#newsH5BottT{
+    float: left;
+    width:100%;
+    height: 4.625em;
+    background-color: #edecec;
+}
+.newsH5ContentBott{
+    height:2.666em;
+    color:#d0d0d0;
+    font-family: "Microsoft YaHei";
+    font-size: 2.8125em;
+    line-height:2.666em;
+    text-align: center;
+}
+
+
+
+
+#newsH5Bott{
+    width:100%;
+    float: left;
+}
+
+
+
+

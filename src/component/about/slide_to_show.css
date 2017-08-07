@@ -1,0 +1,24 @@
+.aboutTop{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.about_top_container{
+    width: 4000px;
+    position: relative;
+}
+.about_top_ele_box{
+    width:1920px;
+    float: left;
+}
+.about_top_element{
+    width: 1160px;
+    margin: 0 auto;
+   
+}
+.box-1{
+    /*background-image: url('../../img/about_news.jpg');*/
+    /*background-position:-380px 0;*/
+}

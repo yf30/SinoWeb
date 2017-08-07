@@ -1,0 +1,14 @@
+.content{
+    position: relative;
+}
+.slimScrollBar{
+    display: none !important;
+}
+
+body{
+    overflow:auto;
+    -webkit-user-select:none;
+    user-select:none;
+    /*overflow:hidden;*/
+    /*-webkit-overflow-scrolling:touch;*/
+}

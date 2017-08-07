@@ -1,0 +1,254 @@
+/*#partner{
+    height: auto;
+}*/
+.partnerK{
+    height:137px;
+    width:100%
+}
+/*.partner-third{
+    background: #373c3b;
+    height:90px;
+}*/
+#partner-first{
+    width: 100%;
+    height: auto;
+}
+.partner-first-section{
+    width: 1245px;
+    margin: auto;
+    height: auto;
+    position: relative;
+}
+
+
+
+/*上半区图片定位*/
+#parallax{
+    width:1250px;
+    height:440px;
+    position: relative;
+    /*overflow: hidden;*/
+    float: left;
+    top:-155px;
+}
+.clear{
+    clear:both;
+}
+/*.partner-first-img{
+    margin: 0 auto;
+}*/
+.ju_pic1{
+    width:590px;
+    height:191px;
+}
+.ju-4lou{
+    position: absolute;
+    left: -9px;
+    top: 307px;
+    z-index: 1;    
+    /*margin: auto;*/
+}
+.ju_pic2{
+    width:371px;
+    height: 173px;
+}
+.ju-2che{
+    position: absolute;
+    left: 83px;
+    top: 280px;    
+    z-index: 4;   
+    /*margin: auto;*/
+}
+.ju_pic3{
+    width: 702px;
+    height: 273px;
+}
+.ju-1fang{
+    position: absolute;
+    left: 264px;    
+    top:184px;
+    z-index: 3;
+}
+.ju_pic4{
+    width:382px;
+    height: 217px;
+}
+.ju-3lou{
+    position: absolute;
+    left: 844px;
+    top:233px;
+    z-index: 2;
+    
+}
+
+/*飓风物流字体样式*/
+#jfwl{
+    text-align:center;
+    margin: auto;
+    /*padding-top:124px;*/
+}
+
+#jfwl p{
+    font-family: "Microsoft YaHei";
+    font-size: 36px;
+    color: #333;
+    font-weight: bold;
+    line-height: 61px;
+    /*margin-top:60px;*/
+}
+
+#jfwl span{
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    color: #999;
+}
+
+/*下半区图片位置*/
+#partner-second{
+    width: 100%;
+    height:auto;    /*679px覆盖上半区背景图*/
+    margin: auto;
+    background: #373c3b;
+}
+
+#ju-tu{
+    width: 1245px;
+    margin: auto;
+    height: 440px;/*auto-332px*/
+    position: relative;
+    margin-top: 270px;  /*448-347px*/
+    padding-top: 22px;
+}
+
+.ju-tu1b{
+    position: absolute;
+    left: 5%;
+    bottom: 200px;
+}
+
+.ju-tu1b img{
+    height: 150px;
+    height: 150px;
+    filter:grayscale(60%);
+    -webkit-filter: grayscale(60%);
+    /*transition:all 0.38s;
+    transition: transform 0.2s;
+    -webkit-transition: -webkit-filter 0.38s linear;*/
+    transition:transform 0.2s;
+    -webkit-transition:-webkit-transform 0.2s;
+    -moz-transition: -moz-tansform 0.2s;
+}
+
+.ju-tu1b img:hover{
+    filter:grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    /*transition:all 0.38s;
+    -webkit-transition: -webkit-filter 0.38s linear;*/
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+}
+
+.ju-tu2b{
+    position: absolute;
+    left: 24%;    
+    bottom: 200px;    
+    /*left: 645px;*/
+    /*top:63px;*/
+}
+
+.ju-tu2b img{
+    height: 150px;
+    height: 150px;
+    filter:grayscale(60%);
+    -webkit-filter: grayscale(60%);
+    /*transition:all 0.38s;
+    -webkit-transition: -webkit-filter 0.38s linear;*/
+    transition:transform 0.2s;
+    -webkit-transition:-webkit-transform 0.2s;
+    -moz-transition: -moz-tansform 0.2s;
+}
+
+.ju-tu2b img:hover{
+    filter:grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    /*transition:all 0.38s;
+    -webkit-transition: -webkit-filter 0.38s linear;*/
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+}
+
+.ju-tu3a{
+    position: absolute;
+    left: 43%; 
+    bottom: 180px;       
+    /*left: 870px;*/
+    /*top:43px;*/
+}
+.ju-tu4b{
+    position: absolute;
+    left: 64%; 
+    bottom: 200px;       
+    /*left: 1120px;*/
+    /*top:63px;*/
+}
+
+.ju-tu4b img{
+    height: 150px;
+    height: 150px;
+    filter:grayscale(60%);
+    -webkit-filter: grayscale(60%);
+    /*transition:all 0.38s;
+    -webkit-transition: -webkit-filter 0.38s linear;*/
+    transition:transform 0.2s;
+    -webkit-transition:-webkit-transform 0.2s;
+    -moz-transition: -moz-tansform 0.2s;
+}
+
+.ju-tu4b img:hover{
+    filter:grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    /*transition:all 0.38s;
+    -webkit-transition: -webkit-filter 0.38s linear;*/
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+}
+
+.ju-tu5b{
+    position: absolute;
+    left: 82%;
+    bottom: 200px;        
+    /*left: 1360px;*/
+    /*top:63px;*/
+}
+
+.ju-tu5b img{
+    height: 150px;
+    height: 150px;
+    filter:grayscale(60%);
+    -webkit-filter: grayscale(60%);
+    transition:transform 0.2s;
+    -webkit-transition:-webkit-transform 0.2s;
+    -moz-transition: -moz-tansform 0.2s;
+}
+
+.ju-tu5b img:hover{
+    filter:grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    /*transition:all 0.38s;
+    -webkit-transition: -webkit-filter 0.38s linear;*/
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+}
+
+#ju-tu p{
+     margin-top: 30px;
+     text-align: center;
+     /*font-weight: bold;*/
+     font-family: "Microsoft YaHei";
+     font-size: 14px;
+     color: #fff;
+}

@@ -1,0 +1,82 @@
+#conHeader{
+    display: block;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    z-index: 10;
+    box-shadow: 0px 2px 2px #dddbd4;
+    overflow-x: hidden;
+    background: #fff;
+}
+
+.conHeader_body{
+    width: 1000px;
+    height: 50px;
+    margin: auto;
+}
+
+.cl{
+    float: left;
+}
+
+.cr{
+    float: right;
+}
+
+.cr p{
+    float: left;
+    color: #666;
+    margin-left:20px;
+    margin-top: 19px;
+    font-size: 14px;
+}
+
+.cr p span{
+    color: #005edf;
+}
+.addHover2,.addHover3{
+    display: none;
+    width: 60px;
+    height: 50px;
+    float: left;
+    cursor: pointer;
+}
+
+.cl a{
+    display: none;
+    width: 60px;
+    height: 50px;
+    float: left;
+    cursor: pointer;
+
+}
+.headerIcon1{
+    background: url(../../img/top_01.png) no-repeat center;
+}
+
+.headerIcon2{
+    background: url(../../img/top_02.png) no-repeat center;
+}
+.headerIconchange2{
+    background: url(../../img/top_04a.png) no-repeat center;
+}
+
+.headerIcon3{
+    background: url(../../img/top_03.png) no-repeat center;
+}
+
+.headerIconchange3{
+    background: url(../../img/top_04b.png) no-repeat center;
+}
+
+.headerIcon1:hover{
+    background: url(../../img/top_04.png) no-repeat center;
+}
+
+a.addHover21:hover,a.addHover23:hover{
+    background: url(../../img/top_05.png) no-repeat center;
+}
+
+a.addHover31:hover,a.addHover32:hover{
+    background: url(../../img/top_06.png) no-repeat center;
+}

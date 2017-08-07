@@ -1,0 +1,47 @@
+<div id="newsH5">
+    <H5header></H5header>
+
+  <div id="newsH5Content">  
+    <div class="page-loadmore-wrapper" ref="wrapper" :style="{ height: wrapperHeight + 'px', width:wrapperWidth + 'px'}">
+        <!--, width:wrapperWidth + 'px'}-->
+        <mt-loadmore :bottom-method="loadBottom" @bottom-status-change="handleBottomChange" :bottom-all-loaded="allLoaded" ref="loadmore">
+            <ul class="page-loadmore-list" id="newsH5U">
+                <li class="page-loadmore-listitem" v-for="item in newsData">
+                    <div id="newsH5Content1">
+                        <div class="newsH5ContentTit"  @click="todetail(item.id)">{{item.newsTitle}}</div>
+                        <div class="newsH5ContentDate">{{item.createDateTime}} 发表</div>
+                        <div class="newsH5ContentImg"  @click="todetail(item.id)"><img class="newsH5Img" v-bind:src="item.src"></div>
+                        <div class="newsH5ContentText" id="newsH5ContentText" v-html="item.newsContent"></div><a class="newsH5ContentA"><span @click="todetail(item.id)">查看全文</span></a>
+                    </div>
+                </li>
+            </ul>
+
+            <div slot="bottom" class="mint-loadmore-bottom">
+                <span v-if="allLoaded" v-show="bottomStatus !== 'loading'" :class="{ 'is-rotate': bottomStatus === 'drop' }" id="newsH5More">已全部加载完</span>
+                <span v-else v-show="bottomStatus !== 'loading'" :class="{ 'is-rotate': bottomStatus === 'drop' }" id="newsH5More">上拉加载更多</span>
+                <span v-show="bottomStatus === 'loading'">
+                    <span class="newsH5D">正在加载更多历史文章</span>
+                    <mt-spinner type="fading-circle" :size="60"></mt-spinner>
+                </span>
+            </div>
+
+            
+
+        </mt-loadmore>
+    </div>
+
+    <div id="topcontrol"></div>
+
+</div>
+
+
+    <!--<div id="newsH5BottT"></div>
+
+    <div id="newsH5Bott">
+        <H5bottom></H5bottom>
+    </div>
+
+    <div is="H5Wei"></div>-->
+
+</div>
+

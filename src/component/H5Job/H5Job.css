@@ -1,0 +1,157 @@
+#jobH5Content{
+    /*float: left;*/
+    width:100%;
+    height:100%;
+}
+#jobH5Top{
+    float: left;
+    padding-top:4.875em;
+}
+#jobH5TopBg{
+    width:91.64%;
+    margin:0 auto;
+}
+#jobH5TopBg img{
+    width:100%
+}
+#jobH5Z{
+    width:100%;
+    float: left;
+}
+#jobH5Z ul{
+    width:91.64%;
+    margin:0 auto;
+    border-top:0.1875em solid #f0efee;
+    /*border-bottom:0.1875em solid #f0efee;*/
+}
+.menu{
+    width:92%;
+    margin:0 auto;
+} 
+.jobH5P{
+    padding-top:1.35em;
+    text-align: center;
+    color: #333;
+    font-family: "Microsoft YaHei";
+    font-size: 3.375em;
+    padding-bottom:1.31em;
+}
+.menu_head{
+    padding-top:1.6875em;
+    /*border-top:0.1875em solid #f0efee;*/
+    border-bottom:0.1875em solid #f0efee;
+    padding-bottom:1.81em;
+}
+.jobH5TitleBg{
+    height:1.524em;
+    width:5.25em;
+    color:#fff;
+    font-family: "Microsoft YaHei";
+    font-size: 2.625em;
+    background-color: #000;
+    text-align: center;
+    line-height: 1.524em;
+}
+.jobH5Text1{
+    padding-top:2.5em;
+}
+.jobH5Title{
+    color:#333;
+    font-family:  "Microsoft YaHei";
+    font-size: 2.625em;
+    font-weight: 700
+}
+.jobH5Txt{
+    padding-top:0.9em;
+}
+.menu_body{
+    padding-bottom: 7.5em;
+    border-bottom: 0.1875em solid #f0efee;
+}
+.jobH5Txt p{
+    color: #333;
+    font-family:  "Microsoft YaHei";
+    font-size: 2.5em;
+    /*padding-top:0.75em;*/
+    line-height:1.6em;
+}
+
+.jobH5Title2{
+    padding-top:4em;
+}
+
+
+#jobH5Bott{
+    margin-top:8.125em;
+    float: left;
+    width:100%;
+}
+
+
+.menu_list{
+    width:100%;
+    margin:0 auto;
+}
+
+.currentImg{
+    background: url(../../H5img/jobBack.png) right no-repeat;
+}
+.currentImg2{
+    background: url(../../H5img/jobBefore.png) right no-repeat;
+}
+/*.menu_list .current{
+    background: url(../../H5img/jobBack.png) right no-repeat;
+}*/
+
+
+#conter{
+    width:100%;
+    float:left;
+}
+#help-left{font-family:'microsoft YaHei';float:left}
+.menu:last-child{border-bottom:1px solid #ccc}
+.menu summary{
+    /*line-height:40px;
+    text-indent:10px;
+    font-size:14px;
+    font-weight:700;
+    border-top:1px solid #ddd;*/
+    width:100%;
+    outline:0;
+    cursor:pointer;
+}
+.menu summary::-webkit-details-marker{
+    display:none
+}
+.menu summary:before{
+    float:right;
+    width:2.625em;
+    height:2.625em;
+    content:url(../../H5img/jobBefore.png);
+    /*background:url(../../H5img/jobBefore.png) right no-repeat 30px 40px;*/
+    display:inline-block;
+    margin-right:10px;
+    /*font-size:18px;
+    font-weight:700*/
+}
+.menu[open] summary:before{
+    float:right;
+    width:2.625em;
+    height:2.625em;
+    content:url(../../H5img/jobBack.png);
+    
+    /*background:url(../../H5img/jobBack.png) right no-repeat;
+    content:image (../../H5img/jobBack.png)  no-repeat*/
+}
+.menu ul{
+    padding:10px 0
+}
+
+.menu_heads{
+    padding-top:1.6875em;
+    /*padding-left:2.8em;*/
+    border-top:0.1875em solid #f0efee;
+    border-bottom:0.1875em solid #f0efee;
+    padding-bottom:1.81em;
+    /*background: url(../../H5img/jobBefore.png) right no-repeat*/
+}

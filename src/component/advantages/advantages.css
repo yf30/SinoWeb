@@ -1,0 +1,333 @@
+
+.advantages{
+    width: 100%;
+    height:100%;
+    background: url('../../img/bj-fugai.png') repeat;
+}
+
+.advantagesMiddle {
+    position: relative;
+    margin: auto;
+    height: 100%;
+    width: 1165px;
+}
+
+.ptys_body {
+    float: left;
+    margin: 286px 0 0 0;
+}
+
+#advantages1 {
+    float: left;
+    cursor: pointer;
+    width: 360px;
+    height: 360px;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+#advantages11 {
+    width: 360px;
+    height: 360px;
+    background-color: #363636;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    display: none;
+}
+
+.advantages1_advantages_picA {
+    width: 75px;
+    height: 75px;
+    top: 60px;
+    position: absolute;
+    left: 143px;
+}
+
+.advantages1_imgA {
+    width: 75px;
+    height: 75px;
+    top: 60px;
+    position: absolute;
+    left: 143px;
+}
+
+.advantages1_imgB {
+    width: 75px;
+    height: 75px;
+    top: 60px;
+    position: absolute;
+    left: -75px;
+}
+
+.advantitme2 {
+    width: 360px;
+    height: 81px;
+    position: absolute;
+    top: 190px;
+    line-height: 17px;
+}
+
+.advantitme21 {
+    width: 360px;
+    height: 81px;
+    position: absolute;
+    top: 190px;
+    left: 360px;
+}
+
+.advantitme21 span {
+    font-family: "Microsoft YaHei";
+    font-size: 18px;
+    font-weight: bold;
+    color: #FF6600;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    line-height: initial;
+}
+
+.advantitme21 p {
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    width: 280px;
+    margin: 0 auto;
+    color: #999;
+    text-align: center;
+    padding-top: 10px;
+    line-height: 20px;
+}
+
+#advantages2 {
+    float: left;
+    cursor: pointer;
+    width: 360px;
+    height: 360px;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+    margin: 0 0 0 40px;
+}
+
+#advantages3 {
+    width: 360px;
+    cursor: pointer;
+    float: right;
+    margin: 0 0 0 40px;
+    height: 360px;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.ptys {
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    top: 140px;
+    width: 1160px;
+    text-align: center;
+}
+
+.ptys span {
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    color: #999;
+}
+
+.ptys p {
+    font-family: "Microsoft YaHei";
+    font-size: 36px;
+    color: #333;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.img {
+    display: table-cell;
+    /*vertical-align: middle;*/
+    /*text-align: center;*/
+    margin: auto;
+}
+
+.advantagestitle {
+    color: #333;
+    font-size: 50px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Microsoft YaHei";
+    font-weight: bold;
+}
+
+@keyframes showPic {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0.2;
+    }
+    30% {
+        opacity: 0.5;
+    }
+    60% {
+        opacity: 0.8;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes showPict {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0.2;
+    }
+    40% {
+        opacity: 0.5;
+    }
+    60% {
+        opacity: 0.9;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes showPictu {
+    0% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0.2;
+    }
+    45% {
+        opacity: 0.5;
+    }
+    60% {
+        opacity: 0.8;
+    }
+    80% {
+        opacity: 0.9;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+#advantages1,
+#advantages2,
+#advantages3 {
+    opacity: 0
+}
+
+.advantagesA {
+    opacity: 1 !important;
+    animation: showPic 2s ease;
+    -webkit-animation: showPic 2s ease;
+    -moz-animation: showPic 2s ease;
+    -o-animation: showPic 2s ease;
+}
+
+.advantagesB {
+    opacity: 1 !important;
+    animation: showPict 2s ease;
+    -webkit-animation: showPict 2s ease;
+    -moz-animation: showPict 2s ease;
+    -o-animation: showPict 2s ease;
+}
+
+.advantagesC {
+    opacity: 1 !important;
+    animation: showPictu 2s ease;
+    -webkit-animation: showPictu 2s ease;
+    -moz-animation: showPictu 2s ease;
+    -o-animation: showPictu 2s ease;
+}
+
+
+/*#advantages1,#advantages2,#advantages3{
+    text-align: center;  
+    opacity: 0;
+}*/
+
+.advantitme1 {
+    margin: 20px 20px;
+    padding: 50px 30px 0px 40px;
+}
+
+.advantitme2 span {
+    font-family: "Microsoft YaHei";
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    line-height: initial;
+}
+
+.advantitme2 p {
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+    width: 280px;
+    margin: 0 auto;
+    color: #999;
+    text-align: center;
+    padding-top: 10px;
+    line-height: 20px;
+}
+
+
+/*#advantages_pics,#advantages_pics2,#advantages_pics3{
+    position: absolute;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    z-index:2;
+    background: url(../../img/tc-bj.jpg)
+}
+#advantages_pic2{
+    width:1160px;
+    height: 560px;
+    margin:150px auto 0px auto;
+}
+#advantages_pic2 img{
+    position: relative;
+    z-index:3;
+}*/
+
+.advantages_closed {
+    position: absolute;
+    cursor: pointer;
+    top: 400px;
+    right: 150px;
+    z-index: 4;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    rotation: 0deg;
+    -moz-transition: -moz-transform 0.5s ease;
+    -webkit-transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+}
+
+.advantages_closed:hover {
+    position: absolute;
+    cursor: pointer;
+    top: 400px;
+    right: 150px;
+    z-index: 4;
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    rotation: 360deg;
+}

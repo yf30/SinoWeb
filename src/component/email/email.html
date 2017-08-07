@@ -1,0 +1,43 @@
+<!--邮件信息-->
+<div id="Email" >
+    <div id="sinoEmail" @click="closeEmail"></div>
+    <div class="emailPic">
+        <el-form :model="ruleForm" :rules="rules" ref="ruleForm" class="demo-ruleForm">
+            <div class="picwidth2" >
+            <div class="emailPic_content">
+                <h1 class="emailTitle">告诉我们您的需求</h1>
+
+                <el-form-item required>
+                    <el-col  :span="10">
+                        <el-form-item prop="name">
+                            <el-input type="text" placeholder="联系人" v-model="ruleForm.name"></el-input>
+                        </el-form-item>
+                    </el-col>
+                    <el-col class="line" :span="2"></el-col>
+                    <el-col :span="10">
+                    <el-form-item prop="tel">
+                        <el-input type="text" class="telph" placeholder="联系电话" maxLength="11" v-model="ruleForm.tel"></el-input>
+                    </el-form-item>
+                    </el-col>
+                </el-form-item>
+
+
+                <el-form-item class="emailInput2"><el-input class="email_input2" type="text" placeholder="单位名称" v-model="ruleForm.user"></el-input></el-form-item>
+
+                <el-form-item prop="cont">
+                    <el-input type="textarea" class="email_text" placeholder="联系内容" v-model="ruleForm.cont"></el-input>
+                </el-form-item>
+
+
+
+                  <el-form-item class="emailBtn">
+                    <el-button  @click="addMessages('ruleForm')" >发送(S)</el-button><div class="email_txt">我们将在1个工作日内回复，资料会保密处理。</div>
+                </el-form-item>
+
+                <!--<p><a class="emailBtn" v-bind:class="{'disabled':ruleForm.tel==''||ruleForm.user==''}" @click="addMessages('ruleForm')">发送(S)</a><div class="email_txt">我们将在1个工作日内回复，资料会保密处理。</div></p>-->
+            </div>
+        </div>
+        </el-form>
+        
+    </div>
+</div>

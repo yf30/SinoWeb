@@ -1,0 +1,196 @@
+#ad-admin a{
+    color: #000;
+}
+#ad-admin button a{
+    color: #fff;
+}
+.nav-head{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 10;
+    height: 60px;
+    text-align: center;
+    background-color: #20a0ff
+    /*line-height: 60px;*/
+}
+.userinfo{
+    float: right;
+    cursor: pointer;
+}
+.userinfo-inner{
+    display: block;
+    height: 100%;
+}
+.ad-user-name{
+    display: inline-block;
+    margin-top: 20px;
+    color: #fff;
+}
+.ad-user-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 10px 0px 10px 10px;
+    float: right;
+}
+
+.nav-head h1{
+    font-size: 36px;
+    
+}
+.ad-main{
+    margin-top: 60px;
+    margin-left: 8.333%;
+    padding-top: 20px;
+}
+
+.ad-nav{
+    width: 8.333%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    display: block;
+    background-color: #eef1f6;
+   
+    z-index: 11;
+    /*height: */
+}
+.ad-nav span{
+    color: #333;
+}
+.ad-nav :hover{
+    cursor: pointer
+}
+.ad-nav li{
+    display: block;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    line-height: 60px;
+}
+.ad-nav li:hover{
+    background-color: #d1dbe5;
+}
+#ad-name{
+    display: block;
+    height: 60px;
+    width: 100%;
+    line-height: 30px;
+    color: #ccc;
+    /*padding: 0 */
+    background-color: #20a0ff;
+    border-right: 1px solid #ccc;
+}
+#ad-name span{
+    color: #fff;
+}
+.hidden-hr{
+    height: 0px;
+    border: 0px;
+    margin: 0px;
+}
+.ad-nav li a{
+    display: block;
+    width: 100%;
+    padding-left: 10%;
+}
+.ad-nav li a span{
+    display: inline-block;
+    width: 70%;
+    text-align: left;
+    margin-left: 10px;
+}
+.adActive{
+    background-color: #e4e8f1;
+}
+.adActive span{
+    color: #20a0ff;
+}
+
+.ad-panel{
+    width: 95%;
+    margin:10px;
+    /*padding: 10px;*/
+    margin-left: 25px;
+    overflow: hidden;
+    border:1px solid #efefef;
+    border-radius: 5px;
+}
+.ad-panel-heading{
+    padding: 10px;
+    font-size: 16px;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #efefef;
+}
+.ad-panel-body{
+    margin: 10px;
+    padding-top: 10px;
+    overflow: hidden;
+}
+.ad-panel-block{
+    margin: 20px 0;
+}
+.ad-input input{
+    width: 94%;
+}
+.ad-query button{
+    padding: 2px 10px 8px 10px;
+    
+}
+.ad-query span{
+    display: inline-block;
+    font-size: 16px;
+    width: 90%;
+    margin-right: 5px;
+    padding-top: 10px;
+    text-align: right;
+    /*border-right: 10px solid transparent;*/
+}
+.ad-pull-right{
+    display: inline-block;
+    font-size: 16px;
+    width: 90%;
+    margin-right: 5px;
+    padding-top: 10px;
+    text-align: right;
+}
+.ad-pull-left{
+    display: inline-block;
+    font-size: 16px;
+    /*width: 90%;*/
+    margin-right: 5px;
+    padding-top: 10px;
+    /*text-align: right;*/
+}
+.el-row{
+    margin:10px 0 10px 0;
+}
+.ad-eidtor{
+    width: 95%;
+    margin-top: 20px;
+    /*padding-left: %;*/
+}
+.ql-container{
+    height: 200px;
+}
+
+.ad-cursor{
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 10px;
+}
+.ad-badage{
+    position: relative;
+    display: block;
+    top: -50px;
+    width: 25px;
+    height: 25px;
+    background-color: #ff4949;
+    line-height: 25px;
+    left: 120px;
+    border-radius: 8px;
+}

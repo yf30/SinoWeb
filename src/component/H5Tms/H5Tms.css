@@ -1,0 +1,156 @@
+#tmsH5Content{
+    width:100%;
+    height:100%;
+}
+
+#tmsH5Top{
+    float: left;
+    width:100%;
+}
+#tmsH5Top img{
+    width:100%;
+}
+#tmsH5ContentBg{
+    float: left;
+    width:100%;
+    height:32.8em;
+    margin-top:-0.17em;
+    background: url(../../H5img/tmsContentBg.png)  center;
+}
+#tmsH5Top2{
+    width:90.67%;
+    margin:0 auto;
+    height:15.9em;
+    line-height: 4em;
+}
+
+#tmsH5Top2 p{
+    text-align: center;
+    color: #333;
+    font-family: "Microsoft YaHei";
+    font-size:  1.875em;
+    /*line-height: 2.5em;*/
+}
+
+
+#tmsH5Down{
+    width:100%;
+    float: left;
+    padding-top:1em;
+    height:16.8em;
+    /*margin-bottom: 5em*/
+}
+#tmsH5DownC{
+    width:80.45%;
+    margin: 0 auto
+}
+#tmsH5Down1{
+    float:left;
+    width:48%
+}
+#tmsH5Down1 img,#tmsH5Down2 img{
+    width:100%
+}
+
+#tmsH5Down2{
+   float:right; 
+   width:48%;
+   margin-left:4%
+}
+
+#tmsH5Blue{
+    width:100%;
+    float: left;
+    background-color: #cbe0EF;
+}
+
+.tmsH5BlueLine1{
+    height:5.625em;
+    margin-left:6.875em;
+    background: url(../../H5img/tmsBlueLine.png) repeat-y;
+}
+
+#tmsH5BlueWP{
+    float: left;
+    width:100%;
+}
+
+#tmsH5BlueWP li{
+    float: left;
+}
+
+.tmsH5BlueP1{
+    float: left;
+}
+
+/*奇数li*/
+#tmsH5BlueWP li:nth-child(odd){
+    padding-left:2.8125em;
+}
+/*偶数li*/
+#tmsH5BlueWP li:nth-child(even){
+    margin-left:6.875em;
+    height:20.625em;
+    float: left; 
+    background: url(../../H5img/tmsBlueLine.png) repeat-y;
+}
+.tmsH5BlueLL{
+    height: 24em !important;
+}
+
+.tmsH5BlueW1{
+    float: left;
+    color:#185cad;
+    font-family: "Microsoft YaHei";
+    font-size: 3.9em;
+    padding-top:0.6em
+}
+.tmsH5BlueW2{
+    float: left;
+    margin-left:2em;
+    margin-top:2%;
+    width:79%;
+    height:5.925em;
+    border-radius: 20px ;
+    background: #fff;
+    color:#666;
+    font-size: 2em;
+    font-family: "Microsoft YaHei";
+    padding-top:1.125em;
+    padding-left: 0.875em;
+    text-align: left;
+    line-height:1.5em
+}
+
+#tmsH5Bott{
+    float: left;
+    width: 100%;
+    background-color: #f5f5f5;
+}
+.tmsH5W5{
+    width:100%;
+    float: left;
+    text-align: center;
+    padding-top:2.5em;
+    color:#999;
+    font-family: "Microsoft YaHei";
+    font-size: 2.25em;
+}
+
+.tmsWei{
+    float:left;
+    width:100%;
+    text-align: center;
+    padding-top: 3.75em;
+}
+.tmsWeiW{
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-top: 1.875em;
+    color:#999;
+    font-family: "Microsoft YaHei";
+    font-size: 2.25em;
+    padding-bottom:2.7em;
+}
+
